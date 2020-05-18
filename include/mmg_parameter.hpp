@@ -126,6 +126,10 @@ typedef struct PropellerParam
 {
 	//T = ρ * n_P^2 * D_P^4 * K_T
 	
+	//Scale Parameter
+	Eigen::Vector3d pos;
+	
+	//Propeller Parameter
 	double diameter; //D_P
 	double K_T; //Coef. of Propeller Specification
 	

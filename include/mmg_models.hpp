@@ -57,22 +57,22 @@ private:
 	//----Hull
 	//---X
 	MmgHullForceForwardResistanceParam3D _mmgResistFore;
-	MmgHullForceHydrodynamicDerivatives2D _mmgHydroDeriv_Xvr; //Xvv, Xvr, Xrr
-	MmgHullForceHydrodynamicDerivative _mmgHydroDeriv_Xvvvv; //Xvvvv
-	MmgHullForceHydrodynamicDerivative _mmgHydroDeriv_Xvp; //Xvφ
-	MmgHullForceHydrodynamicDerivatives2D _mmgHydroDeriv_Xrp; //Xrr, Xrφ, Xφφ
+	MmgHullForceHydrodynamicDerivatives2D _mmgHydroDeriv_Xvr2; //Xvv, Xvr, Xrr
+	MmgHullForceHydrodynamicDerivative _mmgHydroDeriv_Xv4; //Xvvvv
+	MmgHullForceHydrodynamicDerivative _mmgHydroDeriv_Xvp2; //Xvφ
+	MmgHullForceHydrodynamicDerivatives2D _mmgHydroDeriv_Xrp2; //Xrr, Xrφ, Xφφ
 	//---Y	
-	MmgHullForceHydrodynamicDerivatives1D _mmgHydroDeriv_Yvr; //Yv, Yr
-	MmgHullForceHydrodynamicDerivatives3D _mmgHydroDeriv_Yvr; //Yvvv, Yvvr, Yvrr, Yrrr
-	MmgHullForceHydrodynamicDerivative _mmgHydroDeriv_Yp; //Yφ
-	MmgHullForceHydrodynamicDerivatives3D _mmgHydroDeriv_Yvp; //Yvvv, Yvvφ, Yvφφ, Yφφφ
-	MmgHullForceHydrodynamicDerivatives3D _mmgHydroDeriv_Yrp; //Yrrr, Yrrφ, Yrφφ, Yφφφ
+	MmgHullForceHydrodynamicDerivatives1D _mmgHydroDeriv_Yvr1; //Yv, Yr
+	MmgHullForceHydrodynamicDerivatives3D _mmgHydroDeriv_Yvr3; //Yvvv, Yvvr, Yvrr, Yrrr
+	MmgHullForceHydrodynamicDerivative _mmgHydroDeriv_Yp1; //Yφ
+	MmgHullForceHydrodynamicDerivatives3D _mmgHydroDeriv_Yvp3; //Yvvv, Yvvφ, Yvφφ, Yφφφ
+	MmgHullForceHydrodynamicDerivatives3D _mmgHydroDeriv_Yrp3; //Yrrr, Yrrφ, Yrφφ, Yφφφ
 	//---N
-	MmgHullForceHydrodynamicDerivatives1D _mmgHydroDeriv_Nvr; //Nv, Nr
-	MmgHullForceHydrodynamicDerivatives3D _mmgHydroDeriv_Nvr; //Nvvv, Nvvr, Nvrr, Nrrr
-	MmgHullForceHydrodynamicDerivative _mmgHydroDeriv_Np; //Nφ
-	MmgHullForceHydrodynamicDerivatives3D _mmgHydroDeriv_Nvp; //Nvvv, Nvvφ, Nvφφ, Nφφφ
-	MmgHullForceHydrodynamicDerivatives3D _mmgHydroDeriv_Nrp; //Nrrr, Nrrφ, Nrφφ, Nφφφ
+	MmgHullForceHydrodynamicDerivatives1D _mmgHydroDeriv_Nvr1; //Nv, Nr
+	MmgHullForceHydrodynamicDerivatives3D _mmgHydroDeriv_Nvr3; //Nvvv, Nvvr, Nvrr, Nrrr
+	MmgHullForceHydrodynamicDerivative _mmgHydroDeriv_Np1; //Nφ
+	MmgHullForceHydrodynamicDerivatives3D _mmgHydroDeriv_Nvp3; //Nvvv, Nvvφ, Nvφφ, Nφφφ
+	MmgHullForceHydrodynamicDerivatives3D _mmgHydroDeriv_Nrp3; //Nrrr, Nrrφ, Nrφφ, Nφφφ
 	
 	double _mmgHullRollMoment_KH; //K_H
 	double _mmgRollDumpCoef_a; //a
