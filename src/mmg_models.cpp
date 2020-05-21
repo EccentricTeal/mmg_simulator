@@ -20,7 +20,6 @@ void ShallowWaterModel::ShallowWaterModel~()
 
 double ShallowWaterModel::_calX_H(void)
 {
-	double X_H;
 	double X_H_dash = 0.0;
 	
 	double squareU = std::pow(_vel.linear.x(),2) + std::pow(_vel.linear.y(),2);
@@ -38,13 +37,12 @@ double ShallowWaterModel::_calX_H(void)
 		+( _mmgparam.get_mmgHullParam("Xrp") * r * phi )
 		+( _mmgparam.get_mmgHullParam("Xpp") * phi * phi );
 	
-	X_H = 0.5 * _phyconst.rho * _shipinfo.length * _shipinfo.draft * squareU * X_H_dash;
+	double X_H = 0.5 * _phyconst.rho * _shipinfo.length * _shipinfo.draft * squareU * X_H_dash;
 	return X_H;
 }
 
 double ShallowWaterModel::_calY_H(void)
 {
-	double Y_H;
 	double Y_H_dash = 0.0;
 	
 	double squareU = std::pow(_vel.linear.x(),2) + std::pow(_vel.linear.y(),2);
@@ -65,13 +63,12 @@ double ShallowWaterModel::_calY_H(void)
 		+( _mmgparam.get_mmgHullParam("Yrrp") * r * r * phi )
 		+( _mmgparam.get_mmgHullParam("Yrpp") * r * phi * phi );
 
-	Y_H = 0.5 * _phyconst.rho * _shipinfo.length * _shipinfo.draft * squareU * Y_H_dash;
+	double Y_H = 0.5 * _phyconst.rho * _shipinfo.length * _shipinfo.draft * squareU * Y_H_dash;
 	return Y_H;	
 }
 
 double ShallowWaterModel::_calN_H(void)
 {
-	double N_H;
 	double N_H_dash = 0.0;
 	
 	double squareU = std::pow(_vel.linear.x(),2) + std::pow(_vel.linear.y(),2)
@@ -92,7 +89,7 @@ double ShallowWaterModel::_calN_H(void)
 		+( _mmgparam.get_mmgHullParam("Nrrp") * r * r * phi )
 		+( _mmgparam.get_mmgHullParam("Nrpp") * r * phi * phi );
 
-	N_H = 0.5 * _phyconst.rho * _shipinfo.length * _shipinfo.draft * squareU * N_H_dash;
+	double N_H = 0.5 * _phyconst.rho * _shipinfo.length * _shipinfo.draft * squareU * N_H_dash;
 	return N_H;	
 }
 
@@ -115,6 +112,7 @@ double ShallowWaterModel::_calcX_P(void)
 		* std::pow(_propeller[0], 2)
 		* std::pow(_propinfo.diameter, 4)
 		* (_mmgparam.get_mmgPropellerParam("k2") * J_P * J_P + _mmgparam.get_mmgPropellerParam("k1") * J_P + _mmgparam.get_mmgPropellerParam("k0") );
+	
 	double X_P = ( 1 - _mmgparam.get_mmgPropellerParam("t0") ) * T;
 	return X_P;
 }
