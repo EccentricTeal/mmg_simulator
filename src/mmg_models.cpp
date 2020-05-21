@@ -115,8 +115,8 @@ double ShallowWaterModel::_calcX_P(void)
 		* std::pow(_propeller[0], 2)
 		* std::pow(_propinfo.diameter, 4)
 		* (_mmgparam.get_mmgPropellerParam("k2") * J_P * J_P + _mmgparam.get_mmgPropellerParam("k1") * J_P + _mmgparam.get_mmgPropellerParam("k0") );
-		   double X_P = ( 1 - _mmgparam.get_mmgPropellerParam("t0") ) * T;
-		   return X_P;
+	double X_P = ( 1 - _mmgparam.get_mmgPropellerParam("t0") ) * T;
+	return X_P;
 }
 
 		
