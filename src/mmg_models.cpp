@@ -71,7 +71,7 @@ double ShallowWaterModel::_calN_H(void)
 {
 	double N_H_dash = 0.0;
 	
-	double squareU = std::pow(_vel.linear.x(),2) + std::pow(_vel.linear.y(),2)
+	Double squareU = std::pow(_vel.linear.x(),2) + std::pow(_vel.linear.y(),2)
 	double v = _vel.linear.y() / sqrt( squareU );
 	double r = _vel.angular.z() * _shipinfo.length / std::sqrt( squareU );
 	double phi = _pos.angular.y();
