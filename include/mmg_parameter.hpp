@@ -11,94 +11,35 @@ Date:   10th May, 2020
 
 //Include 
 #include <Eigen/Core>
+#include <unordered_map>
+#include <string>
 
 
 /*------------------------------------------------
 MMG Hydrodynamic Force(Hull) Parameter
 ------------------------------------------------*/
-typedef struct MmgHullForceAheadResistanceParam2D //Hughes Equation Based
+
+class MmgParam
 {
-	double D_Cf; //ΔCf:Coef. of roughness correction
-	double Cr; //Cr:Coef. of surplus resitance
-	double S; //S: Hull wetted surface area
-	double Re; //Re: Reynolds number
+	public:
+	//Constractor, Destructor
+	void MmgParam();
+	void MmgParam~();
 
-}MmgHullForceAheadResistanceParam2D;
+	//Accessor
+	double get_mmgHullParam(std::string param_key);
+	double get_mmgPropellerParam(std::string param_key);
+	double get_mmgRudderParam(std::string param_key);
 
-typedef struct MmgHullForceForwardResistanceParam3D //Hughes Equation Based
-{
-	double Nabla; //∇:Volume of displacement
-	double DeltaCf; //ΔCf:Coef. of Roughness Correction
-	double K; //K: Coef. of Hull Form Effect
-	double S; //S: Hull wetted surface area
-	double Cw; //Cw: Coef. of Wave Generate Resitance
-	double Re; //Re: Reynolds Number
-
-}MmgHullForceForwardResistanceParam3D;
-
-
-
-typedef struct MmgHullForceHydrodynamicDerivative
-{
-	//For any MmgHullForceHydrodynamicDerivative(Single)
-	double val;
 	
-}MmgHullForceHydrodynamicDerivative;
-
-
-typedef struct MmgHullForceHydrodynamicDerivatives1D
-{
-	//(e.g.) X_v, X_r
-	double i;	
-	double j;
+	private;
+	std::unordered_map<std::string, double> _hull;
+	std::unordered_map<std::string, double> _propeller;
+	std::unordered_map<std::string, double> _rudder;
 	
-}MmgHullForceHydrodynamicDerivatives1D;
+};
 
 
-typedef struct MmgHullForceHydrodynamicDerivatives2D
-{
-	//(e.g.) X_vv, X_vr, X_rr
-	double ii;
-	double ij;
-	double jj;
-	
-}MmgHullForceHydrodynamicDerivatives2D;
-
-
-typedef struct MmgHullForceHydrodynamicDerivatives3D
-{
-	//(e.g.) X_vvv, X_vvr, X_vrr, X_rrr
-	double iii;
-	double iij;
-	double ijj;
-	double jjj;
-	
-}MmgHullForceHydrodynamicDerivatives3D;
-
-
-typedef struct MmgHullForceHydrodynamicDerivatives4D
-{
-	//(e.g.) X_vvvv, X_vvvr, X_vvrr, X_vrrr, X_rrrr
-	double iiii;
-	double iiij;
-	double iijj;
-	double ijjj;
-	double jjjj;
-	
-}MmgHullForceHydrodynamicDerivatives4D;
-
-
-typedef struct MmgHullForceHydrodynamicDerivatives5D
-{
-	//(e.g.) X_vvvvv, X_vvvvr, X_vvvrr, X_vvrrr, X_vrrrr, X_rrrr
-	double iiiii;
-	double iiiij;
-	double iiijj;
-	double iijjj;
-	double ijjjj;
-	double jjjjj;
-	
-}MmgHullForceHydrodynamicDerivatives5D;
 
 /*------------------------------------------------
 MMG Ship Unique Parameter

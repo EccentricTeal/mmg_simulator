@@ -28,16 +28,14 @@ Date:   10th May, 2020
 //  (Journal: JASNAOE Spring Conference 2019 Proceedings Vol.28 pp.491-496)
 class ShallowWaterModel
 {
-
-public:
+	
+	public:
 	//Initialize and Finalize Functions
 	void ShallowWaterModel();	//Constractor
 	void ShallowWaterModel~();  //Destructor
 
-	//Accessor
 
-
-private:
+	private:
 	//Physical Constants
 	PhysicalConst _phyconst;
 	
@@ -48,47 +46,14 @@ private:
 	ShipVelocity3D _vel;
 	ShipAcceralator3D _acc;
 	
-	//Ship Parameter
+	//Ship Unique Parameters
 	ShipParam _shipinfo;
 	PropellerParam _propinfo;
 	RudderParam _rudderinfo;
-
-	//MMG Parameter
-	//----Hull
-	//---X
-	MmgHullForceForwardResistanceParam3D _mmgResistFore;
-	MmgHullForceHydrodynamicDerivatives2D _mmgHydroDeriv_Xvr2; //Xvv, Xvr, Xrr
-	MmgHullForceHydrodynamicDerivative _mmgHydroDeriv_Xv4; //Xvvvv
-	MmgHullForceHydrodynamicDerivative _mmgHydroDeriv_Xvp2; //Xvφ
-	MmgHullForceHydrodynamicDerivatives2D _mmgHydroDeriv_Xrp2; //Xrr, Xrφ, Xφφ
-	//---Y	
-	MmgHullForceHydrodynamicDerivatives1D _mmgHydroDeriv_Yvr1; //Yv, Yr
-	MmgHullForceHydrodynamicDerivatives3D _mmgHydroDeriv_Yvr3; //Yvvv, Yvvr, Yvrr, Yrrr
-	MmgHullForceHydrodynamicDerivative _mmgHydroDeriv_Yp1; //Yφ
-	MmgHullForceHydrodynamicDerivatives3D _mmgHydroDeriv_Yvp3; //Yvvv, Yvvφ, Yvφφ, Yφφφ
-	MmgHullForceHydrodynamicDerivatives3D _mmgHydroDeriv_Yrp3; //Yrrr, Yrrφ, Yrφφ, Yφφφ
-	//---N
-	MmgHullForceHydrodynamicDerivatives1D _mmgHydroDeriv_Nvr1; //Nv, Nr
-	MmgHullForceHydrodynamicDerivatives3D _mmgHydroDeriv_Nvr3; //Nvvv, Nvvr, Nvrr, Nrrr
-	MmgHullForceHydrodynamicDerivative _mmgHydroDeriv_Np1; //Nφ
-	MmgHullForceHydrodynamicDerivatives3D _mmgHydroDeriv_Nvp3; //Nvvv, Nvvφ, Nvφφ, Nφφφ
-	MmgHullForceHydrodynamicDerivatives3D _mmgHydroDeriv_Nrp3; //Nrrr, Nrrφ, Nrφφ, Nφφφ
 	
-	double _mmgHullRollMoment_KH; //K_H
-	double _mmgRollDumpCoef_a; //a
-	double _mmgRollDumpCoef_b; //b
-
-	//----Propeller
-	double _mmgPropeller_tP; //Thrust Deduction
-	double _mmgPropellerSpec_k[3]; //Standalone Propeller spec coef. k0, k1, k2
-	double _mmgPropeller_wP0; //Wake Fraction
-
-	//----Rudder
-	double _mmgRudder_tR; //Rudder Wake Coef.
-	double _mmgRudder_aR; //Rudder Wake Coef.
-	double _mmgRudder_xR; //Rudder Wake Coef.
-	double _mmgRudder_ganmaR; //Rudder Flow Straightening Coef.
-	double _mmgRudder_K; //Constants from experiment
+	//MMG Parameter
+	MmgParam _mmgparam;
+	
 
 	//----Local Calculator
 	double _calcX_H(void); //Calculate Surge force correspondings to Hull

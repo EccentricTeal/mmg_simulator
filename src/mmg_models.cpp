@@ -30,13 +30,13 @@ double ShallowWaterModel::_calX_H(void)
 
 	X_H_dash =
 		-_mmgResistFore
-		+( _mmgHydroDeriv_Xvr2.ii * v * v )
-		+( _mmgHydroDeriv_Xvr2.ij * v * r )
-		+( _mmgHydroDeriv_Xvr2.jj * r * r )
-		+( _mmgHydroDeriv_Xv4.val * std::pow(v, 4) )
-		+( _mmgHyrdoDeriv_Xvp2.val * v * phi )
-		+( _mmgHydroDeriv_Xrp2.ij * r * phi )
-		+( _mmgHydroDeriv_Xrp2.jj * phi * phi );
+		+( _mmgparam.get_mmgHullParam("Xvv") * v * v )
+		+( _mmgparam.get_mmgHullParam("Xvr") * v * r )
+		+( _mmgparam.get_mmgHullParam("Xrr") * r * r )
+		+( _mmgparam.get_mmgHullParam("Xvvvv") * std::pow(v, 4) )
+		+( _mmgparam.get_mmgHullParam("Xvp") * v * phi )
+		+( _mmgparam.get_mmgHullParam("Xrp") * r * phi )
+		+( _mmgparam.get_mmgHullParam("Xpp") * phi * phi );
 	
 	X_H = 0.5 * _phyconst.rho * _shipinfo.length * _shipinfo.draft * squareU * X_H_dash;
 	return X_H;
@@ -53,17 +53,17 @@ double ShallowWaterModel::_calY_H(void)
 	double phi = _pos.angular.y();
 
 	Y_H_dash =
-		 ( _mmgHydroDeriv_Yvr1.i * v )
-		+( _mmgHydroDeriv_Yvr1.j * r )
-		+( _mmgHydroDeriv_Yvr3.iii * v * v * v )
-		+( _mmgHydroDeriv_Yvr3.iij * v * v * r )
-		+( _mmgHydroDeriv_Yvr3.ijj * v * r * r )
-		+( _mmgHydroDeriv_Yvr3.jjj * r * r * r )
-		+( _mmgHydroDeriv_Yp1.val * phi )
-		+( _mmgHydroDeriv_Yvp3.iij * v * v * phi )
-		+( _mmgHydroDeriv_Yvp3.ijj * v * phi * phi )
-		+( _mmgHydroDeriv_Yrp3.iij * r * r * phi )
-		+( _mmgHydroDeriv_Yrp3.ijj * r * phi * phi );
+		 ( _mmgparam.get_mmgHullParam("Yv") * v )
+		+( _mmgparam.get_mmgHullParam("Yr") * r )
+		+( _mmgparam.get_mmgHullParam("Yvvv") * v * v * v )
+		+( _mmgparam.get_mmgHullParam("Yvvr") * v * v * r )
+		+( _mmgparam.get_mmgHullParam("Yvrr") * v * r * r )
+		+( _mmgparam.get_mmgHullParam("Yrrr") * r * r * r )
+		+( _mmgparam.get_mmgHullParam("Yp") * phi )
+		+( _mmgparam.get_mmgHullParam("Yvvp") * v * v * phi )
+		+( _mmgparam.get_mmgHullParam("Yvpp") * v * phi * phi )
+		+( _mmgparam.get_mmgHullParam("Yrrp") * r * r * phi )
+		+( _mmgparam.get_mmgHullParam("Yrpp") * r * phi * phi );
 
 	Y_H = 0.5 * _phyconst.rho * _shipinfo.length * _shipinfo.draft * squareU * Y_H_dash;
 	return Y_H;	
@@ -80,17 +80,17 @@ double ShallowWaterModel::_calN_H(void)
 	double phi = _pos.angular.y();
 
 	N_H_dash =
-		 ( _mmgHydroDeriv_Nvr1.i * v )
-		+( _mmgHydroDeriv_Nvr1.j * r )
-		+( _mmgHydroDeriv_Nvr3.iii * v * v * v )
-		+( _mmgHydroDeriv_Nvr3.iij * v * v * r )
-		+( _mmgHydroDeriv_Nvr3.ijj * v * r * r )
-		+( _mmgHydroDeriv_Nvr3.jjj * r * r * r )
-		+( _mmgHydroDeriv_Np1.val * phi )
-		+( _mmgHydroDeriv_Nvp3.iij * v * v * phi )
-		+( _mmgHydroDeriv_Nvp3.ijj * v * phi * phi )
-		+( _mmgHydroDeriv_Nrp3.iij * r * r * phi )
-		+( _mmgHydroDeriv_Nrp3.ijj * r * phi * phi );
+		 ( _mmgparam.get_mmgHullParam("Nv") * v )
+		+( _mmgparam.get_mmgHullParam("Nr") * r )
+		+( _mmgparam.get_mmgHullParam("Nvvv") * v * v * v )
+		+( _mmgparam.get_mmgHullParam("Nvvr") * v * v * r )
+		+( _mmgparam.get_mmgHullParam("Nvrr") * v * r * r )
+		+( _mmgparam.get_mmgHullParam("Nrrr") * r * r * r )
+		+( _mmgparam.get_mmgHullParam("Np") * phi )
+		+( _mmgparam.get_mmgHullParam("Nvvp") * v * v * phi )
+		+( _mmgparam.get_mmgHullParam("Nvpp") * v * phi * phi )
+		+( _mmgparam.get_mmgHullParam("Nrrp") * r * r * phi )
+		+( _mmgparam.get_mmgHullParam("Nrpp") * r * phi * phi );
 
 	N_H = 0.5 * _phyconst.rho * _shipinfo.length * _shipinfo.draft * squareU * N_H_dash;
 	return N_H;	
@@ -108,15 +108,15 @@ double ShallowWaterModel::_calcX_P(void)
 	
 	double beta = std::atan( -v / u );
 	double beta_P = beta - x_P * r + z_P * phi_dot;
-	double w_P = _mmgPropeller_wP0 * (1 - (1 - std::pow(std::cos(beta_P), 2) ) * (1 - std::abs(beta_P)));
+	double w_P = _mmgparam.get_mmgPropellerParam("wP0") * (1 - (1 - std::pow(std::cos(beta_P), 2) ) * (1 - std::abs(beta_P)));
 	double J_P = u * (1 - w_P) / (_propeller[0] * _propinfo.diameter);
 	double T =
 		 _phyconst.rho
-		* std::pow(_propeller[0],2)
+		* std::pow(_propeller[0], 2)
 		* std::pow(_propinfo.diameter, 4)
-		* (_mmgPropellerSpec_k[2] * J_P * J_P + _mmgPropellerSpec_k[1] * J_P + _mmgPropellerSpec_k[0]);
-	double X_P = (1 - _mmgPropeller_tP) * T;
-	return X_P;
+		* (_mmgparam.get_mmgPropellerParam("k2") * J_P * J_P + _mmgparam.get_mmgPropellerParam("k1") * J_P + _mmgparam.get_mmgPropellerParam("k0") );
+		   double X_P = ( 1 - _mmgparam.get_mmgPropellerParam("t0") ) * T;
+		   return X_P;
 }
 
 		
