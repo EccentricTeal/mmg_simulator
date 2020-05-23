@@ -46,12 +46,11 @@ class ShallowWaterModel
 	ShipVelocity3D _vel;
 	ShipAcceralator3D _acc;
 	
-	//Ship Unique Parameters
-	ShipParam _shipinfo;
-	PropellerParam _propinfo;
-	RudderParam _rudderinfo;
-	
-	//MMG Parameter
+	//Ship Parameters
+	HullParam _hullparam;
+	MassParam _massparam;
+	PropellerParam _propellerparam;
+	RudderParam _rudderparam;
 	MmgParam _mmgparam;
 	
 
