@@ -41,7 +41,9 @@ typedef struct PropellerParam
 {
 	//T = ρ * n_P^2 * D_P^4 * K_T
 	double diameter; //D_P
+	double pitch; //P
 	double K_T; //Coef. of Propeller Specification
+
 
 	//Point of propeller force(Midship origin, Coordinate: On ship)
 	Eigen::Vector3d force_point;

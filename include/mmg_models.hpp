@@ -52,9 +52,20 @@ class ShallowWaterModel
 	PropellerParam _propellerparam;
 	RudderParam _rudderparam;
 	MmgParam _mmgparam;
-	
 
-	//----Local Calculator
+	//Temporary Variables
+	double _tempU;
+	double _tempF_N;
+
+
+	//Flags
+	bool _UisUpdated;
+	bool _F_NisUpdated;
+
+	//Local Calculator
+	void _calcU(void); //Calculate U temporarily
+	void _calcF_N(void); //Calculate F_N temporarily
+	
 	double _calcX_H(void); //Calculate Surge force correspondings to Hull
 	double _calcY_H(void); //Calculate Sway force correspondings to Hull
 	double _calcN_H(void); //Calculate Yaw moment correspondings to Hull
