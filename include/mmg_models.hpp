@@ -34,6 +34,12 @@ class ShallowWaterModel
 	void ShallowWaterModel();	//Constractor
 	void ShallowWaterModel~();  //Destructor
 
+	//Accessor
+	void updateX(void); //Update Surge Force
+	void updateY(void); //Update Sway Force
+	void updateN(void); //Update Yaw Moment
+	void updateK(void); //Update Roll Moment
+
 
 	private:
 	//Physical Constants
@@ -53,27 +59,34 @@ class ShallowWaterModel
 	RudderParam _rudderparam;
 	MmgParam _mmgparam;
 
+	//Force and Moment
+	FlagParam _X;
+	FlagParam _Y;
+	FlagParam _N;	
+	FlagParam _K;
+
 	//Temporary Variables
-	double _tempU;
-	double _tempF_N;
-
-
-	//Flags
-	bool _UisUpdated;
-	bool _F_NisUpdated;
-
+	//-- first: isUpdated flag,  second: value--
+	FlagParam _tempU;
+	FlagParam _tempF_N;
+	FlagParam _tempX_H;
+	FlagParam _tempY_H;
+	FlagParam _tempN_H;
+	FlagParam _tempX_P;
+	FlagParam _tempX_R;
+	FlagParam _tempY_R;
+	FlagParam _tempN_R;
+	
 	//Local Calculator
 	void _calcU(void); //Calculate U temporarily
 	void _calcF_N(void); //Calculate F_N temporarily
-	
-	double _calcX_H(void); //Calculate Surge force correspondings to Hull
-	double _calcY_H(void); //Calculate Sway force correspondings to Hull
-	double _calcN_H(void); //Calculate Yaw moment correspondings to Hull
-	double _calcX_P(void); //Calculate Surge force correspondings to Propeller
-	double _calcX_R(void); //Calculate Surge force correspondings to Rudder
-	double _calcY_R(void); //Calculate Sway force correspondings to Rudder
-	double _calcN_R(void); //Calculate Yaw moment correspondings to Rudder
-	double _calcK(void); //Calculate Roll moment.
+	void _calcX_H(void); //Calculate Surge force correspondings to Hull
+	void _calcY_H(void); //Calculate Sway force correspondings to Hull
+	void _calcN_H(void); //Calculate Yaw moment correspondings to Hull
+	void _calcX_P(void); //Calculate Surge force correspondings to Propeller
+	void _calcX_R(void); //Calculate Surge force correspondings to Rudder
+	void _calcY_R(void); //Calculate Sway force correspondings to Rudder
+	void _calcN_R(void); //Calculate Yaw moment correspondings to Rudder
 	
 }
 

@@ -93,4 +93,14 @@ class MmgParam
 	
 };
 
+
+typedef struct FlagParam
+{
+	bool isUpdated;
+	double value;
+	
+}FlagParm;
+
+	
+
 #endif
