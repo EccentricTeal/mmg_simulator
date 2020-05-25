@@ -35,7 +35,8 @@ class ShallowWaterModel
 	void ShallowWaterModel~();  //Destructor
 
 	//Accessor
-	void update();	
+	void update(void);
+	void getForce(double &X, double &Y, double &N, double &K);
 
 
 	private:
