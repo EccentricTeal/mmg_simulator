@@ -35,10 +35,7 @@ class ShallowWaterModel
 	void ShallowWaterModel~();  //Destructor
 
 	//Accessor
-	void updateX(void); //Update Surge Force
-	void updateY(void); //Update Sway Force
-	void updateN(void); //Update Yaw Moment
-	void updateK(void); //Update Roll Moment
+	void update();	
 
 
 	private:
@@ -87,6 +84,14 @@ class ShallowWaterModel
 	void _calcX_R(void); //Calculate Surge force correspondings to Rudder
 	void _calcY_R(void); //Calculate Sway force correspondings to Rudder
 	void _calcN_R(void); //Calculate Yaw moment correspondings to Rudder
+
+	void _updateX(void); //Update Surge Force
+	void _updateY(void); //Update Sway Force
+	void _updateN(void); //Update Yaw Moment
+	void _updateK(void); //Update Roll Moment
+
+	void _resetUpdateFalgs(void);
+	
 	
 }
 

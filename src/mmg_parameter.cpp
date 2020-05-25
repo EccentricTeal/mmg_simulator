@@ -13,7 +13,9 @@ Date:   21th May, 2020
 
 void MmgParam::MmgParam()
 {
-	;
+	_hull.clear();
+	_propeller.clear();
+	_rudder.clear();	
 }
 
 void MmgParam::MmgParam~()
