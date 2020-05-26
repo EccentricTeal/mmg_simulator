@@ -31,12 +31,28 @@ void ShallowWaterModel::update(void)
 	_resetUpdateFalgs();
 }
 
-void getForce(double &X, double &Y, double &N, double &K)
+void getForceX(void)
 {
-	X = _X;
-	Y = _Y;
-	N = _N;
-	K = _K;
+	double X = _X;
+	return X;	
+}
+
+void getForceY(void)
+{
+	double Y = _Y;
+	return Y;	
+}
+
+void getForceN(void)
+{
+	double N = _N;
+	return N;	
+}
+
+void getForceK(void)
+{
+	double K = _K;
+	return K;	
 }
 
 

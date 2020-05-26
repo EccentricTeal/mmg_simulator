@@ -36,7 +36,10 @@ class ShallowWaterModel
 
 	//Accessor
 	void update(void);
-	void getForce(double &X, double &Y, double &N, double &K);
+	void getForceX(void);
+	void getForceY(void);
+	void getForceN(void);
+	void getForceK(void);
 
 
 	private:
