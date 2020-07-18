@@ -80,6 +80,18 @@ install/local/fast: preinstall/fast
 	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
 
+# Special rule for the target install
+install: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/usr/bin/cmake -P cmake_install.cmake
+.PHONY : install
+
+# Special rule for the target install
+install/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/usr/bin/cmake -P cmake_install.cmake
+.PHONY : install/fast
+
 # Special rule for the target list_install_components
 list_install_components:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Devel\" \"Unspecified\""
@@ -111,18 +123,6 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
-
-# Special rule for the target install
-install: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/usr/bin/cmake -P cmake_install.cmake
-.PHONY : install
-
-# Special rule for the target install
-install/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/usr/bin/cmake -P cmake_install.cmake
-.PHONY : install/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -157,19 +157,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named simulator
-
-# Build rule for target.
-simulator: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 simulator
-.PHONY : simulator
-
-# fast build rule for target.
-simulator/fast:
-	$(MAKE) -f CMakeFiles/simulator.dir/build.make CMakeFiles/simulator.dir/build
-.PHONY : simulator/fast
-
-#=============================================================================
 # Target rules for targets named mmg_models
 
 # Build rule for target.
@@ -181,6 +168,32 @@ mmg_models: cmake_check_build_system
 mmg_models/fast:
 	$(MAKE) -f CMakeFiles/mmg_models.dir/build.make CMakeFiles/mmg_models.dir/build
 .PHONY : mmg_models/fast
+
+#=============================================================================
+# Target rules for targets named mmg_parameter
+
+# Build rule for target.
+mmg_parameter: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 mmg_parameter
+.PHONY : mmg_parameter
+
+# fast build rule for target.
+mmg_parameter/fast:
+	$(MAKE) -f CMakeFiles/mmg_parameter.dir/build.make CMakeFiles/mmg_parameter.dir/build
+.PHONY : mmg_parameter/fast
+
+#=============================================================================
+# Target rules for targets named simulator
+
+# Build rule for target.
+simulator: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 simulator
+.PHONY : simulator
+
+# fast build rule for target.
+simulator/fast:
+	$(MAKE) -f CMakeFiles/simulator.dir/build.make CMakeFiles/simulator.dir/build
+.PHONY : simulator/fast
 
 #=============================================================================
 # Target rules for targets named ContinuousStart
@@ -17226,6 +17239,33 @@ src/mmg_models.cpp.s:
 	$(MAKE) -f CMakeFiles/mmg_models.dir/build.make CMakeFiles/mmg_models.dir/src/mmg_models.cpp.s
 .PHONY : src/mmg_models.cpp.s
 
+src/mmg_parameter.o: src/mmg_parameter.cpp.o
+
+.PHONY : src/mmg_parameter.o
+
+# target to build an object file
+src/mmg_parameter.cpp.o:
+	$(MAKE) -f CMakeFiles/mmg_parameter.dir/build.make CMakeFiles/mmg_parameter.dir/src/mmg_parameter.cpp.o
+.PHONY : src/mmg_parameter.cpp.o
+
+src/mmg_parameter.i: src/mmg_parameter.cpp.i
+
+.PHONY : src/mmg_parameter.i
+
+# target to preprocess a source file
+src/mmg_parameter.cpp.i:
+	$(MAKE) -f CMakeFiles/mmg_parameter.dir/build.make CMakeFiles/mmg_parameter.dir/src/mmg_parameter.cpp.i
+.PHONY : src/mmg_parameter.cpp.i
+
+src/mmg_parameter.s: src/mmg_parameter.cpp.s
+
+.PHONY : src/mmg_parameter.s
+
+# target to generate assembly for a file
+src/mmg_parameter.cpp.s:
+	$(MAKE) -f CMakeFiles/mmg_parameter.dir/build.make CMakeFiles/mmg_parameter.dir/src/mmg_parameter.cpp.s
+.PHONY : src/mmg_parameter.cpp.s
+
 src/simulator.o: src/simulator.cpp.o
 
 .PHONY : src/simulator.o
@@ -17261,12 +17301,13 @@ help:
 	@echo "... depend"
 	@echo "... install/strip"
 	@echo "... install/local"
+	@echo "... install"
+	@echo "... mmg_models"
+	@echo "... mmg_parameter"
 	@echo "... simulator"
 	@echo "... list_install_components"
-	@echo "... mmg_models"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... install"
 	@echo "... ContinuousStart"
 	@echo "... ExperimentalCoverage"
 	@echo "... NightlyCoverage"
@@ -18579,6 +18620,9 @@ help:
 	@echo "... src/mmg_models.o"
 	@echo "... src/mmg_models.i"
 	@echo "... src/mmg_models.s"
+	@echo "... src/mmg_parameter.o"
+	@echo "... src/mmg_parameter.i"
+	@echo "... src/mmg_parameter.s"
 	@echo "... src/simulator.o"
 	@echo "... src/simulator.i"
 	@echo "... src/simulator.s"

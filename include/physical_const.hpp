@@ -13,9 +13,9 @@ class PhysicalConst
 {
 	
 public:
-	constexpr static float pi = 3.141592653589;
-	constexpr static float rho = 997.0;   //Water density[kg/m^3]
-	constexpr static float g = 9.80665;   //Gravity Accelarator[m/s^2]
+	constexpr static double pi = 3.141592653589;
+	constexpr static double rho = 997.0;   //Water density[kg/m^3]
+	constexpr static double g = 9.80665;   //Gravity Accelarator[m/s^2]
 };
 
 #endif

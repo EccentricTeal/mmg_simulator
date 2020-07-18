@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmmg_parameter.a  CMakeFiles/mmg_parameter.dir/src/mmg_parameter.cpp.o
+/usr/bin/ranlib libmmg_parameter.a

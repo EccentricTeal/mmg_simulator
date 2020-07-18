@@ -13,8 +13,10 @@ Date:   18th July, 2020
 
 int main (void)
 {
-	ShallowWaterModel model();
-	printf("Objected!");
+	ShallowWaterModel model;
+	printf("Test");
+	
+	return 1;	
 
 }
 

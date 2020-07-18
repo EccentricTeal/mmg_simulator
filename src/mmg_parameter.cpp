@@ -9,21 +9,21 @@ Date:   21th May, 2020
 #include "mmg_parameter.hpp"
 #include <iostream>
 #include <exception>
-#include <pair>
+#include <utility>
 
-void MmgParam::MmgParam()
+MmgParam::MmgParam()
 {
 	_hull.clear();
 	_propeller.clear();
 	_rudder.clear();	
 }
 
-void MmgParam::MmgParam~()
+MmgParam::~MmgParam()
 {
 	;
 }
 
-double Mmgparam::get_mmgHullParam(std::string key)
+double MmgParam::get_mmgHullParam(std::string key)
 {
 	double value;
 	
@@ -38,7 +38,7 @@ double Mmgparam::get_mmgHullParam(std::string key)
 			<< "[ERROR] -"
 			<< key
 			<< "- is not defined as Hull Force MMG Parameter. Please confirm it!"
-			<< endl;
+			<< std::endl;
 		std::terminate();
 	}
 }
@@ -58,7 +58,7 @@ double MmgParam::get_mmgPropellerParam(std::string key)
 			<< "[ERROR] -"
 			<< key
 			<< "- is not defined as Propeller Force MMG Parameter. Please confirm it!"
-			<< endl;
+			<< std::endl;
 		std::terminate();
 	}
 }	
@@ -87,7 +87,7 @@ double MmgParam::get_mmgRudderParam(std::string key)
 double MmgParam::set_mmgHullParam(std::string key, double value)
 {
 	//Define Local Variable
-	std::pair result;
+	std::pair<std::string, double> result;
 
 	//Show Current target parameter
 	std::cout
@@ -101,18 +101,18 @@ double MmgParam::set_mmgHullParam(std::string key, double value)
 	{
 		std::cout
 			<< "Success! Set "
-			<< result.first->first
+			<< result.first
 			<< " as "
-			<< result.first->second
+			<< result.second
 			<< std::endl;
 	}
 	else
 	{
 		std::cout
 			<< "ERROR! "
-			<< result.first->first
+			<< result.first
 			<< " is already defined as "
-			<< result.first->second
+			<< result.second
 			<< "! Confirm Parameter Lists!"
 			<< std::endl;
 	}
@@ -122,7 +122,7 @@ double MmgParam::set_mmgHullParam(std::string key, double value)
 double MmgParam::set_mmgPropellerParam(std::string key, double value)
 {
 	//Define Local Variable
-	std::pair result;
+	std::pair<std::string, double> result;
 
 	//Show Current target parameter
 	std::cout
@@ -136,18 +136,18 @@ double MmgParam::set_mmgPropellerParam(std::string key, double value)
 	{
 		std::cout
 			<< "Success! Set "
-			<< result.first->first
+			<< result.first
 			<< " as "
-			<< result.first->second
+			<< result.second
 			<< std::endl;
 	}
 	else
 	{
 		std::cout
 			<< "ERROR! "
-			<< result.first->first
+			<< result.first
 			<< " is already defined as "
-			<< result.first->second
+			<< result.second
 			<< "! Confirm Parameter Lists!"
 			<< std::endl;
 	}
@@ -157,7 +157,7 @@ double MmgParam::set_mmgPropellerParam(std::string key, double value)
 double MmgParam::set_mmgRudderParam(std::string key, double value)
 {
 	//Define Local Variable
-	std::pair result;
+	std::pair<std::string, double> result;
 
 	//Show Current target parameter
 	std::cout
@@ -171,18 +171,18 @@ double MmgParam::set_mmgRudderParam(std::string key, double value)
 	{
 		std::cout
 			<< "Success! Set "
-			<< result.first->first
+			<< result.first
 			<< " as "
-			<< result.first->second
+			<< result.second
 			<< std::endl;
 	}
 	else
 	{
 		std::cout
 			<< "ERROR! "
-			<< result.first->first
+			<< result.first
 			<< " is already defined as "
-			<< result.first->second
+			<< result.second
 			<< "! Confirm Parameter Lists!"
 			<< std::endl;
 	}

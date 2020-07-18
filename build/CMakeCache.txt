@@ -817,6 +817,9 @@ eigen_lapack_static_LIB_DEPENDS:STATIC=
 //Dependencies for target
 mmg_models_LIB_DEPENDS:STATIC=
 
+//Dependencies for target
+mmg_parameter_LIB_DEPENDS:STATIC=
+
 //Value Computed by CMake
 mmg_simulator_BINARY_DIR:STATIC=/home/suisei/windata1/projects/research/doctor/projects/mmg_simulator/build
 

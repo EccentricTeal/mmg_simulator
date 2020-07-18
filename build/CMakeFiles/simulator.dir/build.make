@@ -91,6 +91,7 @@ simulator_EXTERNAL_OBJECTS =
 simulator: CMakeFiles/simulator.dir/src/simulator.cpp.o
 simulator: CMakeFiles/simulator.dir/build.make
 simulator: libmmg_models.a
+simulator: libmmg_parameter.a
 simulator: CMakeFiles/simulator.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/suisei/windata1/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable simulator"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/simulator.dir/link.txt --verbose=$(VERBOSE)

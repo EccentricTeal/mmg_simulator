@@ -1185,3 +1185,251 @@ make[2]: ディレクトリ '/media/suisei/windata1/data/projects/research/docto
 make[1]: ディレクトリ '/media/suisei/windata1/data/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp' から出ます
 
 
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_std=cpp03 succeeded with the following output:
+Change Dir: /home/suisei/windata1/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fb9bb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fb9bb.dir/build.make CMakeFiles/cmTC_fb9bb.dir/build
+make[1]: Entering directory '/media/suisei/windata1/data/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_fb9bb.dir/src.cxx.o
+/usr/bin/c++    -DCOMPILER_SUPPORT_std=cpp03   -std=c++03 -o CMakeFiles/cmTC_fb9bb.dir/src.cxx.o -c /home/suisei/windata1/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_fb9bb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fb9bb.dir/link.txt --verbose=1
+/usr/bin/c++   -DCOMPILER_SUPPORT_std=cpp03    -rdynamic CMakeFiles/cmTC_fb9bb.dir/src.cxx.o  -o cmTC_fb9bb 
+make[1]: Leaving directory '/media/suisei/windata1/data/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Determining if the function sgemm_ exists passed with the following output:
+Change Dir: /home/suisei/windata1/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c8d24/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c8d24.dir/build.make CMakeFiles/cmTC_c8d24.dir/build
+make[1]: ディレクトリ '/media/suisei/windata1/data/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_c8d24.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sgemm_ -fopenmp   -o CMakeFiles/cmTC_c8d24.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c8d24
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c8d24.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sgemm_ -fopenmp    -rdynamic CMakeFiles/cmTC_c8d24.dir/CheckFunctionExists.c.o  -o cmTC_c8d24 /usr/lib/x86_64-linux-gnu/libblas.so 
+make[1]: ディレクトリ '/media/suisei/windata1/data/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp' から出ます
+
+
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_std=cpp03 succeeded with the following output:
+Change Dir: /home/suisei/windata1/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1d087/fast"
+make[1]: Entering directory '/media/suisei/windata1/data/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_1d087.dir/build.make CMakeFiles/cmTC_1d087.dir/build
+make[2]: Entering directory '/media/suisei/windata1/data/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1d087.dir/src.cxx.o
+/usr/bin/c++    -DCOMPILER_SUPPORT_std=cpp03   -std=c++03 -o CMakeFiles/cmTC_1d087.dir/src.cxx.o -c /home/suisei/windata1/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_1d087
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1d087.dir/link.txt --verbose=1
+/usr/bin/c++   -DCOMPILER_SUPPORT_std=cpp03    -rdynamic CMakeFiles/cmTC_1d087.dir/src.cxx.o  -o cmTC_1d087 
+make[2]: Leaving directory '/media/suisei/windata1/data/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/media/suisei/windata1/data/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Determining if the function sgemm_ exists passed with the following output:
+Change Dir: /home/suisei/windata1/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4ed81/fast"
+make[1]: ディレクトリ '/media/suisei/windata1/data/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/make -f CMakeFiles/cmTC_4ed81.dir/build.make CMakeFiles/cmTC_4ed81.dir/build
+make[2]: ディレクトリ '/media/suisei/windata1/data/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_4ed81.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sgemm_ -fopenmp   -o CMakeFiles/cmTC_4ed81.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_4ed81
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4ed81.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sgemm_ -fopenmp    -rdynamic CMakeFiles/cmTC_4ed81.dir/CheckFunctionExists.c.o  -o cmTC_4ed81 /usr/lib/x86_64-linux-gnu/libblas.so 
+make[2]: ディレクトリ '/media/suisei/windata1/data/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp' から出ます
+make[1]: ディレクトリ '/media/suisei/windata1/data/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp' から出ます
+
+
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_std=cpp03 succeeded with the following output:
+Change Dir: /home/suisei/windata1/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_83485/fast"
+make[1]: Entering directory '/media/suisei/windata1/data/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_83485.dir/build.make CMakeFiles/cmTC_83485.dir/build
+make[2]: Entering directory '/media/suisei/windata1/data/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_83485.dir/src.cxx.o
+/usr/bin/c++    -DCOMPILER_SUPPORT_std=cpp03   -std=c++03 -o CMakeFiles/cmTC_83485.dir/src.cxx.o -c /home/suisei/windata1/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_83485
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_83485.dir/link.txt --verbose=1
+/usr/bin/c++   -DCOMPILER_SUPPORT_std=cpp03    -rdynamic CMakeFiles/cmTC_83485.dir/src.cxx.o  -o cmTC_83485 
+make[2]: Leaving directory '/media/suisei/windata1/data/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/media/suisei/windata1/data/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Determining if the function sgemm_ exists passed with the following output:
+Change Dir: /home/suisei/windata1/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_503a2/fast"
+make[1]: ディレクトリ '/media/suisei/windata1/data/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/make -f CMakeFiles/cmTC_503a2.dir/build.make CMakeFiles/cmTC_503a2.dir/build
+make[2]: ディレクトリ '/media/suisei/windata1/data/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_503a2.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sgemm_ -fopenmp   -o CMakeFiles/cmTC_503a2.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_503a2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_503a2.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sgemm_ -fopenmp    -rdynamic CMakeFiles/cmTC_503a2.dir/CheckFunctionExists.c.o  -o cmTC_503a2 /usr/lib/x86_64-linux-gnu/libblas.so 
+make[2]: ディレクトリ '/media/suisei/windata1/data/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp' から出ます
+make[1]: ディレクトリ '/media/suisei/windata1/data/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp' から出ます
+
+
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_std=cpp03 succeeded with the following output:
+Change Dir: /home/suisei/windata1/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_76679/fast"
+/usr/bin/make -f CMakeFiles/cmTC_76679.dir/build.make CMakeFiles/cmTC_76679.dir/build
+make[1]: Entering directory '/media/suisei/windata1/data/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_76679.dir/src.cxx.o
+/usr/bin/c++    -DCOMPILER_SUPPORT_std=cpp03   -std=c++03 -o CMakeFiles/cmTC_76679.dir/src.cxx.o -c /home/suisei/windata1/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_76679
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_76679.dir/link.txt --verbose=1
+/usr/bin/c++   -DCOMPILER_SUPPORT_std=cpp03    -rdynamic CMakeFiles/cmTC_76679.dir/src.cxx.o  -o cmTC_76679 
+make[1]: Leaving directory '/media/suisei/windata1/data/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Determining if the function sgemm_ exists passed with the following output:
+Change Dir: /home/suisei/windata1/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a6784/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a6784.dir/build.make CMakeFiles/cmTC_a6784.dir/build
+make[1]: ディレクトリ '/media/suisei/windata1/data/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_a6784.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sgemm_ -fopenmp   -o CMakeFiles/cmTC_a6784.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a6784
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a6784.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sgemm_ -fopenmp    -rdynamic CMakeFiles/cmTC_a6784.dir/CheckFunctionExists.c.o  -o cmTC_a6784 /usr/lib/x86_64-linux-gnu/libblas.so 
+make[1]: ディレクトリ '/media/suisei/windata1/data/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp' から出ます
+
+
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_std=cpp03 succeeded with the following output:
+Change Dir: /home/suisei/windata1/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e0220/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e0220.dir/build.make CMakeFiles/cmTC_e0220.dir/build
+make[1]: Entering directory '/media/suisei/windata1/data/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e0220.dir/src.cxx.o
+/usr/bin/c++    -DCOMPILER_SUPPORT_std=cpp03   -std=c++03 -o CMakeFiles/cmTC_e0220.dir/src.cxx.o -c /home/suisei/windata1/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_e0220
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e0220.dir/link.txt --verbose=1
+/usr/bin/c++   -DCOMPILER_SUPPORT_std=cpp03    -rdynamic CMakeFiles/cmTC_e0220.dir/src.cxx.o  -o cmTC_e0220 
+make[1]: Leaving directory '/media/suisei/windata1/data/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Determining if the function sgemm_ exists passed with the following output:
+Change Dir: /home/suisei/windata1/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3c799/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3c799.dir/build.make CMakeFiles/cmTC_3c799.dir/build
+make[1]: ディレクトリ '/media/suisei/windata1/data/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_3c799.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sgemm_ -fopenmp   -o CMakeFiles/cmTC_3c799.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_3c799
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3c799.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sgemm_ -fopenmp    -rdynamic CMakeFiles/cmTC_3c799.dir/CheckFunctionExists.c.o  -o cmTC_3c799 /usr/lib/x86_64-linux-gnu/libblas.so 
+make[1]: ディレクトリ '/media/suisei/windata1/data/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp' から出ます
+
+
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_std=cpp03 succeeded with the following output:
+Change Dir: /home/suisei/windata1/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8b54f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8b54f.dir/build.make CMakeFiles/cmTC_8b54f.dir/build
+make[1]: Entering directory '/media/suisei/windata1/data/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8b54f.dir/src.cxx.o
+/usr/bin/c++    -DCOMPILER_SUPPORT_std=cpp03   -std=c++03 -o CMakeFiles/cmTC_8b54f.dir/src.cxx.o -c /home/suisei/windata1/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_8b54f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8b54f.dir/link.txt --verbose=1
+/usr/bin/c++   -DCOMPILER_SUPPORT_std=cpp03    -rdynamic CMakeFiles/cmTC_8b54f.dir/src.cxx.o  -o cmTC_8b54f 
+make[1]: Leaving directory '/media/suisei/windata1/data/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Determining if the function sgemm_ exists passed with the following output:
+Change Dir: /home/suisei/windata1/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7bc60/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7bc60.dir/build.make CMakeFiles/cmTC_7bc60.dir/build
+make[1]: ディレクトリ '/media/suisei/windata1/data/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_7bc60.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sgemm_ -fopenmp   -o CMakeFiles/cmTC_7bc60.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_7bc60
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7bc60.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sgemm_ -fopenmp    -rdynamic CMakeFiles/cmTC_7bc60.dir/CheckFunctionExists.c.o  -o cmTC_7bc60 /usr/lib/x86_64-linux-gnu/libblas.so 
+make[1]: ディレクトリ '/media/suisei/windata1/data/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp' から出ます
+
+
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_std=cpp03 succeeded with the following output:
+Change Dir: /home/suisei/windata1/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_09cde/fast"
+make[1]: Entering directory '/media/suisei/windata1/data/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_09cde.dir/build.make CMakeFiles/cmTC_09cde.dir/build
+make[2]: Entering directory '/media/suisei/windata1/data/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_09cde.dir/src.cxx.o
+/usr/bin/c++    -DCOMPILER_SUPPORT_std=cpp03   -std=c++03 -o CMakeFiles/cmTC_09cde.dir/src.cxx.o -c /home/suisei/windata1/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_09cde
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_09cde.dir/link.txt --verbose=1
+/usr/bin/c++   -DCOMPILER_SUPPORT_std=cpp03    -rdynamic CMakeFiles/cmTC_09cde.dir/src.cxx.o  -o cmTC_09cde 
+make[2]: Leaving directory '/media/suisei/windata1/data/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/media/suisei/windata1/data/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Determining if the function sgemm_ exists passed with the following output:
+Change Dir: /home/suisei/windata1/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_37b19/fast"
+make[1]: ディレクトリ '/media/suisei/windata1/data/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/make -f CMakeFiles/cmTC_37b19.dir/build.make CMakeFiles/cmTC_37b19.dir/build
+make[2]: ディレクトリ '/media/suisei/windata1/data/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_37b19.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sgemm_ -fopenmp   -o CMakeFiles/cmTC_37b19.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_37b19
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_37b19.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sgemm_ -fopenmp    -rdynamic CMakeFiles/cmTC_37b19.dir/CheckFunctionExists.c.o  -o cmTC_37b19 /usr/lib/x86_64-linux-gnu/libblas.so 
+make[2]: ディレクトリ '/media/suisei/windata1/data/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp' から出ます
+make[1]: ディレクトリ '/media/suisei/windata1/data/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp' から出ます
+
+
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_std=cpp03 succeeded with the following output:
+Change Dir: /home/suisei/windata1/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5c3e8/fast"
+make[1]: Entering directory '/media/suisei/windata1/data/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_5c3e8.dir/build.make CMakeFiles/cmTC_5c3e8.dir/build
+make[2]: Entering directory '/media/suisei/windata1/data/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5c3e8.dir/src.cxx.o
+/usr/bin/c++    -DCOMPILER_SUPPORT_std=cpp03   -std=c++03 -o CMakeFiles/cmTC_5c3e8.dir/src.cxx.o -c /home/suisei/windata1/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_5c3e8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5c3e8.dir/link.txt --verbose=1
+/usr/bin/c++   -DCOMPILER_SUPPORT_std=cpp03    -rdynamic CMakeFiles/cmTC_5c3e8.dir/src.cxx.o  -o cmTC_5c3e8 
+make[2]: Leaving directory '/media/suisei/windata1/data/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/media/suisei/windata1/data/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Determining if the function sgemm_ exists passed with the following output:
+Change Dir: /home/suisei/windata1/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d4787/fast"
+make[1]: ディレクトリ '/media/suisei/windata1/data/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/make -f CMakeFiles/cmTC_d4787.dir/build.make CMakeFiles/cmTC_d4787.dir/build
+make[2]: ディレクトリ '/media/suisei/windata1/data/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_d4787.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sgemm_ -fopenmp   -o CMakeFiles/cmTC_d4787.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d4787
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d4787.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sgemm_ -fopenmp    -rdynamic CMakeFiles/cmTC_d4787.dir/CheckFunctionExists.c.o  -o cmTC_d4787 /usr/lib/x86_64-linux-gnu/libblas.so 
+make[2]: ディレクトリ '/media/suisei/windata1/data/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp' から出ます
+make[1]: ディレクトリ '/media/suisei/windata1/data/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp' から出ます
+
+

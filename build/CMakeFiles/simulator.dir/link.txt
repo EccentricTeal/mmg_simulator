@@ -1,1 +1,1 @@
-/usr/bin/c++    -rdynamic CMakeFiles/simulator.dir/src/simulator.cpp.o  -o simulator libmmg_models.a 
+/usr/bin/c++    -rdynamic CMakeFiles/simulator.dir/src/simulator.cpp.o  -o simulator libmmg_models.a libmmg_parameter.a 
