@@ -9,13 +9,13 @@ Date:   10th May, 2020
 #include "mmg_models.hpp"
 
 //Constractor
-void ShallowWaterModel::ShallowWaterModel()
+ShallowWaterModel::ShallowWaterModel()
 {
 	;
 }
 
 //Destructor
-void ShallowWaterModel::ShallowWaterModel~()
+ShallowWaterModel::~ShallowWaterModel()
 {
 	;
 }
@@ -31,27 +31,27 @@ void ShallowWaterModel::update(void)
 	_resetUpdateFalgs();
 }
 
-void getForceX(void)
+double ShallowWaterModel::getForceX(void)
 {
-	double X = _X;
+	double X = _X.value;
 	return X;	
 }
 
-void getForceY(void)
+double ShallowWaterModel::getForceY(void)
 {
-	double Y = _Y;
+	double Y = _Y.value;
 	return Y;	
 }
 
-void getForceN(void)
+double ShallowWaterModel::getForceN(void)
 {
-	double N = _N;
+	double N = _N.value;
 	return N;	
 }
 
-void getForceK(void)
+double ShallowWaterModel::getForceK(void)
 {
-	double K = _K;
+	double K = _K.value;
 	return K;	
 }
 
@@ -62,7 +62,7 @@ void ShallowWaterModel::_calcU(void)
 	if(false == _tempU.isUpdated)
 	{
 		_tempU.value = std::sqrt( std::pow(_vel.linear.x(),2) + std::pow(_vel.linear.y(),2) );
-		tempU.isUpdated = true;
+		_tempU.isUpdated = true;
 	}
 	
 }
@@ -72,35 +72,40 @@ void ShallowWaterModel::_calcF_N(void)
 {
 	if(false == _tempF_N.isUpdated)
 	{
+		if(false == _tempU.isUpdated)
+		{
+			_calcU();
+		}
+		double U = _tempU.value;
 		
 		double u_R = 0.0;
 		double v_R = 0.0;
-		double U = 0.0;
 		double squareU_R = 0.0;
 		
 		double A_R = _rudderparam.width * _rudderparam.height;
 		double Alpha_R = 0.0;
 		double beta_R = 0.0;
 		double Eta = _propellerparam.diameter / _rudderparam.height;
-		
-		double beta_P = beta - x_P * r + z_P * phi_dot;
+
+		double beta = _mmgparam.get_mmgRudderParam("Beta");
+		double x_P_dash = _propellerparam.force_point.x()/_hullparam.length;
+		double z_P_dash = _propellerparam.force_point.z()/_hullparam.length;
+		double r_dash = _vel.angular.z() * _hullparam.length / U;
+		double phi_dot_dash = _vel.angular.x() * _hullparam.length / U;		
+			
+		double beta_P = beta - x_P_dash * r_dash + z_P_dash * phi_dot_dash;
 		double w_P = _mmgparam.get_mmgPropellerParam("w_P0") * (1 - (1 - std::pow(std::cos(beta_P), 2) ) * (1 - std::abs(beta_P)));
 		double u_P = ( 1 - w_P ) * _vel.linear.x();
 		double propeller_slip = ( 1 - u_P / (_propeller[0].rotate * _propellerparam.pitch) );
 		double J_P0 = _vel.linear.x() * (1 - _mmgparam.get_mmgPropellerParam("w_P0")) / (_propeller[0].rotate * _propellerparam.diameter);
 
 		double F_N = 0.0;	
-	
-		if(false == _U_isUpdated)
-		{
-			_calcU();
-		}
-		U = _tempU;
-	
+
+		
 		beta_R =
-			_mmgparam.get_mmgRudderParam("Beta")
+			beta
 			-( (_rudderparam.force_point.x() / _hullparam.length) * (_vel.angular.z() * _hullparam.length / U) )
-			+( (_rudderparam.force_point.z() / _hullparam.draft) * (_vel.angular.y() * _hullparam.draft / _vel.linear.y()) );
+			+( (_rudderparam.force_point.z() / _hullparam.draft) * (_vel.angular.x() * _hullparam.draft / _vel.linear.y()) );
 
 		v_R = U * _mmgparam.get_mmgRudderParam("Gamma_R") * beta_R;
 
@@ -113,8 +118,8 @@ void ShallowWaterModel::_calcF_N(void)
 				* std::pow(1 + (
 							   _mmgparam.get_mmgPropellerParam("Kapper") 
 							   * (std::sqrt(1 + (propeller_slip * _propellerparam.K_T) / (_phyconst.pi * J_P0 * J_P0) ) - 1 )
-							   )
-					)
+							   ),
+					2)
 				+ ( 1 - Eta )
 				);
 	
@@ -132,22 +137,22 @@ void ShallowWaterModel::_calcF_N(void)
 }
 
 
-void ShallowWaterModel::_calX_H(void)
+void ShallowWaterModel::_calcX_H(void)
 {
 	if(false == _tempX_H.isUpdated)
 	{
 		double X_H_dash = 0.0;
 		double U = 0.0;
 
-		if(false == _U_isUpdated)
+		if(false == _tempU.isUpdated)
 		{
 			_calcU();
 		}
-		U = _tempU;
+		U = _tempU.value;
 
 		double v = _vel.linear.y() / U;
 		double r = _vel.angular.z() * _hullparam.length / U;
-		double phi = _pos.angular.y();
+		double phi = _pos.angular.x();
 
 		X_H_dash =
 			-_mmgparam.get_mmgHullParam("R0")
@@ -167,22 +172,22 @@ void ShallowWaterModel::_calX_H(void)
 }
 
 
-void ShallowWaterModel::_calY_H(void)
+void ShallowWaterModel::_calcY_H(void)
 {
 	if(false == _tempY_H.isUpdated)
 	{
 		double Y_H_dash = 0.0;
 		double U = 0.0;
 
-		if(false == _U_isUpdated)
+		if(false == _tempU.isUpdated)
 		{
 			_calcU();
 		}
-		U = _tempU;
+		U = _tempU.value;
 	
 		double v = _vel.linear.y() / U;
 		double r = _vel.angular.z() * _hullparam.length / U;
-		double phi = _pos.angular.y();
+		double phi = _pos.angular.x();
 
 		Y_H_dash =
 			( _mmgparam.get_mmgHullParam("Yv") * v )
@@ -205,21 +210,21 @@ void ShallowWaterModel::_calY_H(void)
 }
 
 
-void ShallowWaterModel::_calN_H(void)
+void ShallowWaterModel::_calcN_H(void)
 {
 	if(false == _tempN_H.isUpdated)
 	{		
 		double N_H_dash = 0.0;
 		double U = 0.0;
 
-		if(false == _U_isUpdated)
+		if(false == _tempU.isUpdated)
 		{
 			_calcU();
 		}
-		U = _tempU;
+		U = _tempU.value;
 		double v = _vel.linear.y() / U;
 		double r = _vel.angular.z() * _hullparam.length / U;
-		double phi = _pos.angular.y();
+		double phi = _pos.angular.x();
 
 		N_H_dash =
 			( _mmgparam.get_mmgHullParam("Nv") * v )
@@ -247,18 +252,18 @@ void ShallowWaterModel::_calcX_P(void)
 	{		
 		double U = 0.0;
 
-		if(false == _U_isUpdated)
+		if(false == _tempU.isUpdated)
 		{
 			_calcU();
 		}
-		U = _tempU;
+		U = _tempU.value;
 	
-		double x_P = _propellerparam.pos.x() / _hullparam.length;
-		double z_P = _propellerparam.pos.z() / _hullparam.draft;
+		double x_P = _propellerparam.force_point.x() / _hullparam.length;
+		double z_P = _propellerparam.force_point.z() / _hullparam.draft;
 		double u = _vel.linear.x();
 		double v = _vel.linear.y();
 		double r = _vel.angular.z() * _hullparam.length / U;
-		double phi_dot = _vel.angular.y() *_hullparam.length / U;
+		double phi_dot = _vel.angular.x() *_hullparam.length / U;
 	
 		double beta = std::atan( -v / u );
 		double beta_P = beta - x_P * r + z_P * phi_dot;
@@ -266,7 +271,7 @@ void ShallowWaterModel::_calcX_P(void)
 		double J_P = u * (1 - w_P) / (_propeller[0].rotate * _propellerparam.diameter);
 		double T =
 			_phyconst.rho
-			* std::pow(_propeller[0], 2)
+			* std::pow(_propeller[0].rotate, 2)
 			* std::pow(_propellerparam.diameter, 4)
 			* (_mmgparam.get_mmgPropellerParam("k2") * J_P * J_P + _mmgparam.get_mmgPropellerParam("k1") * J_P + _mmgparam.get_mmgPropellerParam("k0") );
 	
@@ -283,17 +288,17 @@ void ShallowWaterModel::_calcX_R(void)
 	if(false == _tempX_R.isUpdated)
 	{
 		double F_N = 0.0;
-		if(false == _F_N_isUpdated)
+		if(false == _tempF_N.isUpdated)
 		{
 			_calcF_N();
 		}
-		F_N = _tempF_N;
+		F_N = _tempF_N.value;
 		
 		double X_R =
 			- (1 - _mmgparam.get_mmgPropellerParam("t_R") )
 			* F_N
 			* std::sin( _rudder[0].angle )
-			* std::cos( _pos.angular.y() );
+			* std::cos( _pos.angular.x() );
 
 		_tempX_R.value = X_R;
 		_tempX_R.isUpdated = true;
@@ -307,17 +312,17 @@ void ShallowWaterModel::_calcY_R(void)
 	if(false == _tempY_R.isUpdated)
 	{		
 		double F_N = 0.0;
-		if(false == _F_N_isUpdated)
+		if(false == _tempF_N.isUpdated)
 		{
 			_calcF_N();
 		}
-		F_N = _tempF_N;
+		F_N = _tempF_N.value;
 		
 		double Y_R =
 			- (1 + _mmgparam.get_mmgPropellerParam("Alpha_H") )
 			* F_N
 			* std::cos( _rudder[0].angle )
-			* std::cos( _pos.angular.y() );		
+			* std::cos( _pos.angular.x() );		
 		_tempY_R.value = Y_R;
 		_tempY_R.isUpdated = true;
 	}
@@ -329,17 +334,17 @@ void ShallowWaterModel::_calcN_R(void)
 	if(false == _tempN_R.isUpdated)
 	{
 		double F_N = 0.0;
-		if(false == _F_N_isUpdated)
+		if(false == _tempF_N.isUpdated)
 		{
 			_calcF_N();
 		}
-		F_N = _tempF_N;
+		F_N = _tempF_N.value;
 		
 		double N_R =
 			- (_rudderparam.force_point.x() + _mmgparam.get_mmgPropellerParam("Alpha_H") *  _mmgparam.get_mmgPropellerParam("x_H") )
 			* F_N
 			* std::cos( _rudder[0].angle )
-			* std::cos( _pos.angular.y() );
+			* std::cos( _pos.angular.x() );
 
 		_tempN_R.value = N_R;
 		_tempN_R.isUpdated = true;
@@ -355,7 +360,7 @@ void ShallowWaterModel::_updateX(void)
 		_calcX_H();
 		_calcX_P();
 		_calcX_R();
-		_X = _tempX_H + _tempX_P + _tempX_R;
+		_X.value = _tempX_H.value + _tempX_P.value + _tempX_R.value;
 		_X.isUpdated = true;
 	}
 }
@@ -366,7 +371,7 @@ void ShallowWaterModel::_updateY(void)
 	{
 		_calcY_H();;
 		_calcY_R();
-		_Y = _tempY_H + _tempY_R;		
+		_Y.value = _tempY_H.value + _tempY_R.value;		
 		_Y.isUpdated = true;
 	}
 }
@@ -377,7 +382,7 @@ void ShallowWaterModel::_updateN(void)
 	{
 		_calcN_H();
 		_calcN_R();
-		_N = _tempN_H + _tempN_R;
+		_N.value = _tempN_H.value + _tempN_R.value;
 		_N.isUpdated = true;
 	}
 }
@@ -414,10 +419,10 @@ void ShallowWaterModel::_updateK(void)
 		
 		double K=
 			_mmgparam.get_mmgHullParam("K_H")
-			- Y_R * _rudderparam.force_point
-			- _massparam.mass * _phyconst.g * _hullparam.gm * _pos.angular.y()
-			+ K_phi * _vel.angular.y()
-			+ K_phiphi * _vel.angular.y() * std::abs( _vel.angular.y() );
+			- Y_R * _rudderparam.force_point.z()
+			- _massparam.mass * _phyconst.g * _hullparam.gm * _pos.angular.x()
+			+ K_phi * _vel.angular.x()
+			+ K_phiphi * _vel.angular.x() * std::abs( _vel.angular.x() );
 
 		_K.value = K;
 		_K.isUpdated = true;

@@ -10,7 +10,7 @@ Date:   10th May, 2020
 #define MMG_PARAMETER_HPP
 
 //Include 
-#include <Eigen/Core>
+#include <eigen/Eigen/Core>
 #include <unordered_map>
 #include <string>
 
@@ -109,8 +109,8 @@ class MmgParam
 {
 	public:
 	//Constractor, Destructor
-	void MmgParam();
-	void MmgParam~();
+	MmgParam();
+	~MmgParam();
 
 	//Accessor
 	double get_mmgHullParam(std::string key);
@@ -122,7 +122,7 @@ class MmgParam
 	double set_mmgRudderParam(std::string key, double value);
 
 	
-	private;
+	private:
 	std::unordered_map<std::string, double> _hull;
 	std::unordered_map<std::string, double> _propeller;
 	std::unordered_map<std::string, double> _rudder;

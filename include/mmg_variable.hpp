@@ -10,7 +10,7 @@ Date:   10th May, 2020
 #define MMG_VARIABLE_HPP
 
 //Include 
-#include <Eigen/Core>
+#include <eigen/Eigen/Core>
 
 /*------------------------------------------------
 MMG Variables
@@ -62,7 +62,7 @@ struct ShipPosition3D
 	ShipPosition3D()
 	{
 		linear = Eigen::Vector3d::Zero();
-		angular = Eigen::angular::Zero();		
+		angular = Eigen::Vector3d::Zero();
 	}	
 	
 };

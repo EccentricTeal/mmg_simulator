@@ -1,0 +1,16 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/suisei/windata1/projects/research/doctor/projects/mmg_simulator/include/eigen/test/bicgstab.cpp"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"BuildOfficial"
+		],
+		"name" : "bicgstab_3"
+	}
+}

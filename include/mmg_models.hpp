@@ -31,15 +31,15 @@ class ShallowWaterModel
 	
 	public:
 	//Initialize and Finalize Functions
-	void ShallowWaterModel();	//Constractor
-	void ShallowWaterModel~();  //Destructor
+	ShallowWaterModel();	//Constractor
+	~ShallowWaterModel();  //Destructor
 
 	//Accessor
 	void update(void);
-	void getForceX(void);
-	void getForceY(void);
-	void getForceN(void);
-	void getForceK(void);
+	double getForceX(void);
+	double getForceY(void);
+	double getForceN(void);
+	double getForceK(void);
 
 
 	private:
@@ -81,6 +81,7 @@ class ShallowWaterModel
 	//Local Calculator
 	void _calcU(void); //Calculate U temporarily
 	void _calcF_N(void); //Calculate F_N temporarily
+	
 	void _calcX_H(void); //Calculate Surge force correspondings to Hull
 	void _calcY_H(void); //Calculate Sway force correspondings to Hull
 	void _calcN_H(void); //Calculate Yaw moment correspondings to Hull
@@ -97,6 +98,7 @@ class ShallowWaterModel
 	void _resetUpdateFalgs(void);
 	
 	
-}
+};
+
 
 #endif

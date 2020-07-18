@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmmg_models.a  CMakeFiles/mmg_models.dir/src/mmg_models.cpp.o
+/usr/bin/ranlib libmmg_models.a
