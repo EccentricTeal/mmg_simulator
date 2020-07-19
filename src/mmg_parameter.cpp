@@ -85,10 +85,7 @@ double MmgParam::get_mmgRudderParam(std::string key)
 
 
 double MmgParam::set_mmgHullParam(std::string key, double value)
-{
-	//Define Local Variable
-	std::pair<std::string, double> result;
-
+{	
 	//Show Current target parameter
 	std::cout
 		<< "[HULL] Read parameter: "
@@ -96,12 +93,12 @@ double MmgParam::set_mmgHullParam(std::string key, double value)
 		<< "......"
 		<< std::flush;
 		
-	result = _hull.try_emplace(key, value);
+	auto result = _hull.try_emplace(key, value);
 	if(true == result.second)
 	{
 		std::cout
 			<< "Success! Set "
-			<< result.first
+			<< key
 			<< " as "
 			<< result.second
 			<< std::endl;
@@ -110,7 +107,7 @@ double MmgParam::set_mmgHullParam(std::string key, double value)
 	{
 		std::cout
 			<< "ERROR! "
-			<< result.first
+			<< key
 			<< " is already defined as "
 			<< result.second
 			<< "! Confirm Parameter Lists!"
@@ -121,9 +118,6 @@ double MmgParam::set_mmgHullParam(std::string key, double value)
 
 double MmgParam::set_mmgPropellerParam(std::string key, double value)
 {
-	//Define Local Variable
-	std::pair<std::string, double> result;
-
 	//Show Current target parameter
 	std::cout
 		<< "[PROPELLER] Read parameter: "
@@ -131,12 +125,12 @@ double MmgParam::set_mmgPropellerParam(std::string key, double value)
 		<< "......"
 		<< std::flush;
 		
-	result = _propeller.try_emplace(key, value);
+	auto result = _propeller.try_emplace(key, value);
 	if(true == result.second)
 	{
 		std::cout
 			<< "Success! Set "
-			<< result.first
+			<< key
 			<< " as "
 			<< result.second
 			<< std::endl;
@@ -145,7 +139,7 @@ double MmgParam::set_mmgPropellerParam(std::string key, double value)
 	{
 		std::cout
 			<< "ERROR! "
-			<< result.first
+			<< key
 			<< " is already defined as "
 			<< result.second
 			<< "! Confirm Parameter Lists!"
@@ -156,9 +150,6 @@ double MmgParam::set_mmgPropellerParam(std::string key, double value)
 
 double MmgParam::set_mmgRudderParam(std::string key, double value)
 {
-	//Define Local Variable
-	std::pair<std::string, double> result;
-
 	//Show Current target parameter
 	std::cout
 		<< "[RUDDER] Read parameter: "
@@ -166,12 +157,12 @@ double MmgParam::set_mmgRudderParam(std::string key, double value)
 		<< "......"
 		<< std::flush;
 		
-	result = _rudder.try_emplace(key, value);
+	auto result = _rudder.try_emplace(key, value);
 	if(true == result.second)
 	{
 		std::cout
 			<< "Success! Set "
-			<< result.first
+			<< key
 			<< " as "
 			<< result.second
 			<< std::endl;
@@ -180,7 +171,7 @@ double MmgParam::set_mmgRudderParam(std::string key, double value)
 	{
 		std::cout
 			<< "ERROR! "
-			<< result.first
+			<< key
 			<< " is already defined as "
 			<< result.second
 			<< "! Confirm Parameter Lists!"

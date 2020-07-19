@@ -2,7 +2,7 @@
 set(CTEST_SOURCE_DIRECTORY  "/home/suisei/windata1/projects/research/doctor/projects/mmg_simulator")
 set(CTEST_BINARY_DIRECTORY  "/home/suisei/windata1/projects/research/doctor/projects/mmg_simulator/build")
 set(CTEST_CMAKE_GENERATOR   "Unix Makefiles")
-set(CTEST_BUILD_NAME        "linux-5.3.0-53-generic-_-7.5.0-sse2-64bit")
+set(CTEST_BUILD_NAME        "linux-5.3.0-62-generic-_-7.5.0-sse2-64bit")
 set(CTEST_SITE              "earth-linux")
 
 set(MODEL Experimental)

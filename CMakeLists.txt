@@ -13,12 +13,13 @@ add_subdirectory(${INCLUDE_DIR}/eigen/)
 
 
 add_library(mmg_parameter STATIC src/mmg_parameter.cpp)
+target_compile_features(mmg_parameter PUBLIC cxx_std_17)
 
 add_library(mmg_models STATIC src/mmg_models.cpp)
 target_link_libraries(mmg_models INTERFACE mmg_parameter)
 
 add_executable(simulator ${PROJ_SRC}/simulator.cpp)
 target_link_libraries(simulator mmg_models)
+#target_compile_features(simulator PUBLIC cxx_std_17)
 
 
-target_compile_features(simulator PUBLIC cxx_std_17)

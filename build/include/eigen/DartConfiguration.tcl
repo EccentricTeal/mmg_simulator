@@ -14,7 +14,7 @@ CostDataFile:
 Site: earth-linux
 
 # Build name is osname-revision-compiler, i.e. Linux-2.4.2-2smp-c++
-BuildName: linux-5.3.0-53-generic-_-7.5.0-sse2-64bit
+BuildName: linux-5.3.0-62-generic-_-7.5.0-sse2-64bit
 
 # Subprojects
 LabelsForSubprojects: 
