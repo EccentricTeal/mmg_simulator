@@ -677,6 +677,8 @@ mmg_parameter.hpp
 ../src/../include/mmg_parameter.hpp
 mmg_variable.hpp
 ../src/../include/mmg_variable.hpp
+eigen/Eigen/Core
+-
 vector
 -
 cmath

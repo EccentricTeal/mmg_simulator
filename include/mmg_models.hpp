@@ -14,6 +14,7 @@ Date:   10th May, 2020
 #include "physical_const.hpp"
 #include "mmg_parameter.hpp"
 #include "mmg_variable.hpp"
+#include <eigen/Eigen/Core>
 
 //Include Tools
 #include <vector>
@@ -41,20 +42,22 @@ class ShallowWaterModel
 	double getForceN(void);
 	double getForceK(void);
 
-
 	private:
 	//Physical Constants
 	PhysicalConst _phyconst;
 	
-	//Ship Variables
+	//Ship Control Variables
 	std::vector<PropellerStatus> _propeller;
 	std::vector<RudderStatus> _rudder;
+
+	//Ship Dynamics Variables
 	ShipPosition3D _pos;
 	ShipVelocity3D _vel;
 	ShipAcceralator3D _acc;
 	
+	
 	//Ship Parameters
-	HullParam _hullparam;
+	BodyParam _bodyparam;
 	MassParam _massparam;
 	PropellerParam _propellerparam;
 	RudderParam _rudderparam;
