@@ -21,4 +21,4 @@ add_executable(simulator ${PROJ_SRC}/simulator.cpp)
 target_link_libraries(simulator mmg_models)
 
 
-target_compile_features(simulator PUBLIC cxx_std_14)
+target_compile_features(simulator PUBLIC cxx_std_17)
