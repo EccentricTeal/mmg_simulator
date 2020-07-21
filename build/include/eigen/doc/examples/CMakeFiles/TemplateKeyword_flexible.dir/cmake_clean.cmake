@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/TemplateKeyword_flexible.dir/TemplateKeyword_flexible.cpp.o"
-  "TemplateKeyword_flexible.pdb"
   "TemplateKeyword_flexible"
+  "TemplateKeyword_flexible.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

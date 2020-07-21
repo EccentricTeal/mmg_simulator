@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/hessenberg_1.dir/hessenberg.cpp.o"
-  "hessenberg_1.pdb"
   "hessenberg_1"
+  "hessenberg_1.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

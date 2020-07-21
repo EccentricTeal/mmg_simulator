@@ -1,4 +1,4 @@
-# Install script for directory: /home/suisei/windata1/projects/research/doctor/projects/mmg_simulator/include/eigen/lapack
+# Install script for directory: /home/suisei/windata/projects/research/doctor/projects/mmg_simulator/include/eigen/lapack
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,12 +44,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libeigen_lapack.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/suisei/windata1/projects/research/doctor/projects/mmg_simulator/build/include/eigen/lapack/libeigen_lapack.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/suisei/windata/projects/research/doctor/projects/mmg_simulator/build/include/eigen/lapack/libeigen_lapack.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libeigen_lapack.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libeigen_lapack.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libeigen_lapack.so"
-         OLD_RPATH "/home/suisei/windata1/projects/research/doctor/projects/mmg_simulator/build/include/eigen/blas:"
+         OLD_RPATH "/home/suisei/windata/projects/research/doctor/projects/mmg_simulator/build/include/eigen/blas:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libeigen_lapack.so")
@@ -58,6 +58,9 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/suisei/windata1/projects/research/doctor/projects/mmg_simulator/build/include/eigen/lapack/libeigen_lapack_static.a")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/suisei/windata/projects/research/doctor/projects/mmg_simulator/build/include/eigen/lapack/libeigen_lapack_static.a")
 endif()
 

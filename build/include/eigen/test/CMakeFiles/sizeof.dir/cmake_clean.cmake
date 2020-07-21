@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/sizeof.dir/sizeof.cpp.o"
-  "sizeof.pdb"
   "sizeof"
+  "sizeof.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

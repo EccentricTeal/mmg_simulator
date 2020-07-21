@@ -49,7 +49,7 @@ unset(_expectedTargets)
 add_library(Eigen3::Eigen INTERFACE IMPORTED)
 
 set_target_properties(Eigen3::Eigen PROPERTIES
-  INTERFACE_INCLUDE_DIRECTORIES "/home/suisei/windata1/projects/research/doctor/projects/mmg_simulator/include/eigen"
+  INTERFACE_INCLUDE_DIRECTORIES "/home/suisei/windata/projects/research/doctor/projects/mmg_simulator/include/eigen"
 )
 
 # This file does not depend on other imported targets which have

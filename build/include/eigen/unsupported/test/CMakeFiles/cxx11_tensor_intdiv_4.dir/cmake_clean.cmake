@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/cxx11_tensor_intdiv_4.dir/cxx11_tensor_intdiv.cpp.o"
-  "cxx11_tensor_intdiv_4.pdb"
   "cxx11_tensor_intdiv_4"
+  "cxx11_tensor_intdiv_4.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

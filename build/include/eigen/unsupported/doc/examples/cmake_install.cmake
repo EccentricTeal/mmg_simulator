@@ -1,4 +1,4 @@
-# Install script for directory: /home/suisei/windata1/projects/research/doctor/projects/mmg_simulator/include/eigen/unsupported/doc/examples
+# Install script for directory: /home/suisei/windata/projects/research/doctor/projects/mmg_simulator/include/eigen/unsupported/doc/examples
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

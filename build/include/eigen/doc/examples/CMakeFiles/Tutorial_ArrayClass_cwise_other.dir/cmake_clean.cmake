@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Tutorial_ArrayClass_cwise_other.dir/Tutorial_ArrayClass_cwise_other.cpp.o"
-  "Tutorial_ArrayClass_cwise_other.pdb"
   "Tutorial_ArrayClass_cwise_other"
+  "Tutorial_ArrayClass_cwise_other.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

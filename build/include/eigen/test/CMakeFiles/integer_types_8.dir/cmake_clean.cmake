@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/integer_types_8.dir/integer_types.cpp.o"
-  "integer_types_8.pdb"
   "integer_types_8"
+  "integer_types_8.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

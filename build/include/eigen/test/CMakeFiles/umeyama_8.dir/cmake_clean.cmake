@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/umeyama_8.dir/umeyama.cpp.o"
-  "umeyama_8.pdb"
   "umeyama_8"
+  "umeyama_8.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

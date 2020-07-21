@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/EulerAngles_1.dir/EulerAngles.cpp.o"
-  "EulerAngles_1.pdb"
   "EulerAngles_1"
+  "EulerAngles_1.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

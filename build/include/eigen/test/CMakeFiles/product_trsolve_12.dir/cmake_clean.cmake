@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/product_trsolve_12.dir/product_trsolve.cpp.o"
-  "product_trsolve_12.pdb"
   "product_trsolve_12"
+  "product_trsolve_12.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

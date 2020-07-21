@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/compile_PartialRedux_maxCoeff.dir/compile_PartialRedux_maxCoeff.cpp.o"
-  "compile_PartialRedux_maxCoeff.pdb"
   "compile_PartialRedux_maxCoeff"
+  "compile_PartialRedux_maxCoeff.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

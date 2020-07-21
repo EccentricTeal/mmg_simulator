@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/geo_transformations_2.dir/geo_transformations.cpp.o"
-  "geo_transformations_2.pdb"
   "geo_transformations_2"
+  "geo_transformations_2.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

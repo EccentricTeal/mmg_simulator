@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/compile_Cwise_slash_equal.dir/compile_Cwise_slash_equal.cpp.o"
-  "compile_Cwise_slash_equal.pdb"
   "compile_Cwise_slash_equal"
+  "compile_Cwise_slash_equal.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

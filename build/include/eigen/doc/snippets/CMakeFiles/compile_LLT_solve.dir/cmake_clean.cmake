@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/compile_LLT_solve.dir/compile_LLT_solve.cpp.o"
-  "compile_LLT_solve.pdb"
   "compile_LLT_solve"
+  "compile_LLT_solve.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

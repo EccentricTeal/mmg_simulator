@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/test_sparseLU.dir/test_sparseLU.cpp.o"
-  "test_sparseLU.pdb"
   "test_sparseLU"
+  "test_sparseLU.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

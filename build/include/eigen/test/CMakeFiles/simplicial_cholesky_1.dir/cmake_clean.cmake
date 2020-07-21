@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/simplicial_cholesky_1.dir/simplicial_cholesky.cpp.o"
-  "simplicial_cholesky_1.pdb"
   "simplicial_cholesky_1"
+  "simplicial_cholesky_1.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

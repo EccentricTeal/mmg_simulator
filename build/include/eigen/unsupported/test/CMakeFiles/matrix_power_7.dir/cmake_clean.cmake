@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/matrix_power_7.dir/matrix_power.cpp.o"
-  "matrix_power_7.pdb"
   "matrix_power_7"
+  "matrix_power_7.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

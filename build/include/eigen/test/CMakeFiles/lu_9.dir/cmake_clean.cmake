@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/lu_9.dir/lu.cpp.o"
-  "lu_9.pdb"
   "lu_9"
+  "lu_9.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

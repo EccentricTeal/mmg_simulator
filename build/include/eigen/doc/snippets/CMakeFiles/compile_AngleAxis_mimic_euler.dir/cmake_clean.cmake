@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/compile_AngleAxis_mimic_euler.dir/compile_AngleAxis_mimic_euler.cpp.o"
-  "compile_AngleAxis_mimic_euler.pdb"
   "compile_AngleAxis_mimic_euler"
+  "compile_AngleAxis_mimic_euler.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

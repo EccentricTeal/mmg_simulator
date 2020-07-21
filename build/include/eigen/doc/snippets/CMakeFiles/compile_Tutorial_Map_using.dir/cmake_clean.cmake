@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/compile_Tutorial_Map_using.dir/compile_Tutorial_Map_using.cpp.o"
-  "compile_Tutorial_Map_using.pdb"
   "compile_Tutorial_Map_using"
+  "compile_Tutorial_Map_using.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

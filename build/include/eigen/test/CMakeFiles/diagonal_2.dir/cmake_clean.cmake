@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/diagonal_2.dir/diagonal.cpp.o"
-  "diagonal_2.pdb"
   "diagonal_2"
+  "diagonal_2.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

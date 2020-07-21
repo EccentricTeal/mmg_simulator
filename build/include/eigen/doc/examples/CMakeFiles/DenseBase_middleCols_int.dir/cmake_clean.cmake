@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/DenseBase_middleCols_int.dir/DenseBase_middleCols_int.cpp.o"
-  "DenseBase_middleCols_int.pdb"
   "DenseBase_middleCols_int"
+  "DenseBase_middleCols_int.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

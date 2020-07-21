@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/miscmatrices_2.dir/miscmatrices.cpp.o"
-  "miscmatrices_2.pdb"
   "miscmatrices_2"
+  "miscmatrices_2.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

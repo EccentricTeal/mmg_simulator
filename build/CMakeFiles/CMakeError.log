@@ -1,174 +1,182 @@
 Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wshorten64to32 failed with the following output:
-Change Dir: /home/suisei/windata1/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp
+Change Dir: /home/suisei/windata/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_5d4ac/fast"
-/usr/bin/make -f CMakeFiles/cmTC_5d4ac.dir/build.make CMakeFiles/cmTC_5d4ac.dir/build
-make[1]: Entering directory '/media/suisei/windata1/data/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_5d4ac.dir/src.cxx.o
-/usr/bin/c++    -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -DCOMPILER_SUPPORT_Wshorten64to32 -Werror   -Wshorten-64-to-32 -o CMakeFiles/cmTC_5d4ac.dir/src.cxx.o -c /home/suisei/windata1/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp/src.cxx
+Run Build Command(s):/usr/bin/make cmTC_df498/fast && /usr/bin/make -f CMakeFiles/cmTC_df498.dir/build.make CMakeFiles/cmTC_df498.dir/build
+make[1]: Entering directory '/media/windata/Users/Suisei/data/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_df498.dir/src.cxx.o
+/usr/bin/c++    -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -DCOMPILER_SUPPORT_Wshorten64to32 -Werror   -Wshorten-64-to-32 -o CMakeFiles/cmTC_df498.dir/src.cxx.o -c /home/suisei/windata/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp/src.cxx
 c++: error: unrecognized command line option '-Wshorten-64-to-32'
-CMakeFiles/cmTC_5d4ac.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_5d4ac.dir/src.cxx.o' failed
-make[1]: *** [CMakeFiles/cmTC_5d4ac.dir/src.cxx.o] Error 1
-make[1]: Leaving directory '/media/suisei/windata1/data/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_5d4ac/fast' failed
-make: *** [cmTC_5d4ac/fast] Error 2
+CMakeFiles/cmTC_df498.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_df498.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_df498.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/media/windata/Users/Suisei/data/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_df498/fast' failed
+make: *** [cmTC_df498/fast] Error 2
+
 
 Source file was:
 int main() { return 0; }
 Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wenumconversion failed with the following output:
-Change Dir: /home/suisei/windata1/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp
+Change Dir: /home/suisei/windata/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_cf494/fast"
-/usr/bin/make -f CMakeFiles/cmTC_cf494.dir/build.make CMakeFiles/cmTC_cf494.dir/build
-make[1]: Entering directory '/media/suisei/windata1/data/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_cf494.dir/src.cxx.o
-/usr/bin/c++    -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -DCOMPILER_SUPPORT_Wenumconversion -Werror   -Wenum-conversion -o CMakeFiles/cmTC_cf494.dir/src.cxx.o -c /home/suisei/windata1/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp/src.cxx
+Run Build Command(s):/usr/bin/make cmTC_088ea/fast && /usr/bin/make -f CMakeFiles/cmTC_088ea.dir/build.make CMakeFiles/cmTC_088ea.dir/build
+make[1]: Entering directory '/media/windata/Users/Suisei/data/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_088ea.dir/src.cxx.o
+/usr/bin/c++    -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -DCOMPILER_SUPPORT_Wenumconversion -Werror   -Wenum-conversion -o CMakeFiles/cmTC_088ea.dir/src.cxx.o -c /home/suisei/windata/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp/src.cxx
 c++: error: unrecognized command line option '-Wenum-conversion'; did you mean '-Wno-conversion'?
-CMakeFiles/cmTC_cf494.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_cf494.dir/src.cxx.o' failed
-make[1]: *** [CMakeFiles/cmTC_cf494.dir/src.cxx.o] Error 1
-make[1]: Leaving directory '/media/suisei/windata1/data/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_cf494/fast' failed
-make: *** [cmTC_cf494/fast] Error 2
+CMakeFiles/cmTC_088ea.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_088ea.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_088ea.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/media/windata/Users/Suisei/data/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_088ea/fast' failed
+make: *** [cmTC_088ea/fast] Error 2
+
 
 Source file was:
 int main() { return 0; }
 Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wcpp11extensions failed with the following output:
-Change Dir: /home/suisei/windata1/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp
+Change Dir: /home/suisei/windata/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_7eb07/fast"
-/usr/bin/make -f CMakeFiles/cmTC_7eb07.dir/build.make CMakeFiles/cmTC_7eb07.dir/build
-make[1]: Entering directory '/media/suisei/windata1/data/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_7eb07.dir/src.cxx.o
-/usr/bin/c++    -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -DCOMPILER_SUPPORT_Wcpp11extensions -Werror   -Wc++11-extensions -o CMakeFiles/cmTC_7eb07.dir/src.cxx.o -c /home/suisei/windata1/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp/src.cxx
+Run Build Command(s):/usr/bin/make cmTC_faca0/fast && /usr/bin/make -f CMakeFiles/cmTC_faca0.dir/build.make CMakeFiles/cmTC_faca0.dir/build
+make[1]: Entering directory '/media/windata/Users/Suisei/data/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_faca0.dir/src.cxx.o
+/usr/bin/c++    -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -DCOMPILER_SUPPORT_Wcpp11extensions -Werror   -Wc++11-extensions -o CMakeFiles/cmTC_faca0.dir/src.cxx.o -c /home/suisei/windata/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp/src.cxx
 c++: error: unrecognized command line option '-Wc++11-extensions'; did you mean '-fms-extensions'?
-CMakeFiles/cmTC_7eb07.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_7eb07.dir/src.cxx.o' failed
-make[1]: *** [CMakeFiles/cmTC_7eb07.dir/src.cxx.o] Error 1
-make[1]: Leaving directory '/media/suisei/windata1/data/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_7eb07/fast' failed
-make: *** [cmTC_7eb07/fast] Error 2
+CMakeFiles/cmTC_faca0.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_faca0.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_faca0.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/media/windata/Users/Suisei/data/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_faca0/fast' failed
+make: *** [cmTC_faca0/fast] Error 2
+
 
 Source file was:
 int main() { return 0; }
 Performing C++ SOURCE FILE Test COMPILER_SUPPORT_wd981 failed with the following output:
-Change Dir: /home/suisei/windata1/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp
+Change Dir: /home/suisei/windata/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_bf3c3/fast"
-/usr/bin/make -f CMakeFiles/cmTC_bf3c3.dir/build.make CMakeFiles/cmTC_bf3c3.dir/build
-make[1]: Entering directory '/media/suisei/windata1/data/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_bf3c3.dir/src.cxx.o
-/usr/bin/c++    -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -DCOMPILER_SUPPORT_wd981 -Werror   -wd981 -o CMakeFiles/cmTC_bf3c3.dir/src.cxx.o -c /home/suisei/windata1/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp/src.cxx
+Run Build Command(s):/usr/bin/make cmTC_e9ca9/fast && /usr/bin/make -f CMakeFiles/cmTC_e9ca9.dir/build.make CMakeFiles/cmTC_e9ca9.dir/build
+make[1]: Entering directory '/media/windata/Users/Suisei/data/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e9ca9.dir/src.cxx.o
+/usr/bin/c++    -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -DCOMPILER_SUPPORT_wd981 -Werror   -wd981 -o CMakeFiles/cmTC_e9ca9.dir/src.cxx.o -c /home/suisei/windata/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp/src.cxx
 c++: error: unrecognized command line option '-wd981'
-CMakeFiles/cmTC_bf3c3.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_bf3c3.dir/src.cxx.o' failed
-make[1]: *** [CMakeFiles/cmTC_bf3c3.dir/src.cxx.o] Error 1
-make[1]: Leaving directory '/media/suisei/windata1/data/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_bf3c3/fast' failed
-make: *** [cmTC_bf3c3/fast] Error 2
+CMakeFiles/cmTC_e9ca9.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_e9ca9.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_e9ca9.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/media/windata/Users/Suisei/data/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_e9ca9/fast' failed
+make: *** [cmTC_e9ca9/fast] Error 2
+
 
 Source file was:
 int main() { return 0; }
 Performing C++ SOURCE FILE Test COMPILER_SUPPORT_wd2304 failed with the following output:
-Change Dir: /home/suisei/windata1/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp
+Change Dir: /home/suisei/windata/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_cc5c7/fast"
-/usr/bin/make -f CMakeFiles/cmTC_cc5c7.dir/build.make CMakeFiles/cmTC_cc5c7.dir/build
-make[1]: Entering directory '/media/suisei/windata1/data/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_cc5c7.dir/src.cxx.o
-/usr/bin/c++    -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -DCOMPILER_SUPPORT_wd2304 -Werror   -wd2304 -o CMakeFiles/cmTC_cc5c7.dir/src.cxx.o -c /home/suisei/windata1/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp/src.cxx
+Run Build Command(s):/usr/bin/make cmTC_b693e/fast && /usr/bin/make -f CMakeFiles/cmTC_b693e.dir/build.make CMakeFiles/cmTC_b693e.dir/build
+make[1]: Entering directory '/media/windata/Users/Suisei/data/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b693e.dir/src.cxx.o
+/usr/bin/c++    -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -DCOMPILER_SUPPORT_wd2304 -Werror   -wd2304 -o CMakeFiles/cmTC_b693e.dir/src.cxx.o -c /home/suisei/windata/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp/src.cxx
 c++: error: unrecognized command line option '-wd2304'
-CMakeFiles/cmTC_cc5c7.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_cc5c7.dir/src.cxx.o' failed
-make[1]: *** [CMakeFiles/cmTC_cc5c7.dir/src.cxx.o] Error 1
-make[1]: Leaving directory '/media/suisei/windata1/data/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_cc5c7/fast' failed
-make: *** [cmTC_cc5c7/fast] Error 2
+CMakeFiles/cmTC_b693e.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_b693e.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_b693e.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/media/windata/Users/Suisei/data/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_b693e/fast' failed
+make: *** [cmTC_b693e/fast] Error 2
+
 
 Source file was:
 int main() { return 0; }
 Performing C++ SOURCE FILE Test COMPILER_SUPPORT_STRICTANSI failed with the following output:
-Change Dir: /home/suisei/windata1/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp
+Change Dir: /home/suisei/windata/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_83987/fast"
-/usr/bin/make -f CMakeFiles/cmTC_83987.dir/build.make CMakeFiles/cmTC_83987.dir/build
-make[1]: Entering directory '/media/suisei/windata1/data/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_83987.dir/src.cxx.o
-/usr/bin/c++    -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -DCOMPILER_SUPPORT_STRICTANSI -Werror   -strict-ansi -o CMakeFiles/cmTC_83987.dir/src.cxx.o -c /home/suisei/windata1/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp/src.cxx
+Run Build Command(s):/usr/bin/make cmTC_ef3f0/fast && /usr/bin/make -f CMakeFiles/cmTC_ef3f0.dir/build.make CMakeFiles/cmTC_ef3f0.dir/build
+make[1]: Entering directory '/media/windata/Users/Suisei/data/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ef3f0.dir/src.cxx.o
+/usr/bin/c++    -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -DCOMPILER_SUPPORT_STRICTANSI -Werror   -strict-ansi -o CMakeFiles/cmTC_ef3f0.dir/src.cxx.o -c /home/suisei/windata/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp/src.cxx
 c++: error: unrecognized command line option '-strict-ansi'; did you mean '-fstrict-enums'?
-CMakeFiles/cmTC_83987.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_83987.dir/src.cxx.o' failed
-make[1]: *** [CMakeFiles/cmTC_83987.dir/src.cxx.o] Error 1
-make[1]: Leaving directory '/media/suisei/windata1/data/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_83987/fast' failed
-make: *** [cmTC_83987/fast] Error 2
+CMakeFiles/cmTC_ef3f0.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_ef3f0.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_ef3f0.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/media/windata/Users/Suisei/data/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_ef3f0/fast' failed
+make: *** [cmTC_ef3f0/fast] Error 2
+
 
 Source file was:
 int main() { return 0; }
 Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Qunusedarguments failed with the following output:
-Change Dir: /home/suisei/windata1/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp
+Change Dir: /home/suisei/windata/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_124c5/fast"
-/usr/bin/make -f CMakeFiles/cmTC_124c5.dir/build.make CMakeFiles/cmTC_124c5.dir/build
-make[1]: Entering directory '/media/suisei/windata1/data/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_124c5.dir/src.cxx.o
-/usr/bin/c++    -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -DCOMPILER_SUPPORT_Qunusedarguments -Werror   -Qunused-arguments -o CMakeFiles/cmTC_124c5.dir/src.cxx.o -c /home/suisei/windata1/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp/src.cxx
+Run Build Command(s):/usr/bin/make cmTC_e3e88/fast && /usr/bin/make -f CMakeFiles/cmTC_e3e88.dir/build.make CMakeFiles/cmTC_e3e88.dir/build
+make[1]: Entering directory '/media/windata/Users/Suisei/data/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e3e88.dir/src.cxx.o
+/usr/bin/c++    -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -DCOMPILER_SUPPORT_Qunusedarguments -Werror   -Qunused-arguments -o CMakeFiles/cmTC_e3e88.dir/src.cxx.o -c /home/suisei/windata/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp/src.cxx
 c++: error: unrecognized command line option '-Qunused-arguments'; did you mean '-Wunused-parameter'?
-CMakeFiles/cmTC_124c5.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_124c5.dir/src.cxx.o' failed
-make[1]: *** [CMakeFiles/cmTC_124c5.dir/src.cxx.o] Error 1
-make[1]: Leaving directory '/media/suisei/windata1/data/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_124c5/fast' failed
-make: *** [cmTC_124c5/fast] Error 2
+CMakeFiles/cmTC_e3e88.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_e3e88.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_e3e88.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/media/windata/Users/Suisei/data/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_e3e88/fast' failed
+make: *** [cmTC_e3e88/fast] Error 2
+
 
 Source file was:
 int main() { return 0; }
-Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/suisei/windata1/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/suisei/windata/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ecbc9/fast"
-/usr/bin/make -f CMakeFiles/cmTC_ecbc9.dir/build.make CMakeFiles/cmTC_ecbc9.dir/build
-make[1]: ディレクトリ '/media/suisei/windata1/data/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp' に入ります
-Building C object CMakeFiles/cmTC_ecbc9.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_ecbc9.dir/CheckSymbolExists.c.o   -c /home/suisei/windata1/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_ecbc9
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ecbc9.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_ecbc9.dir/CheckSymbolExists.c.o  -o cmTC_ecbc9 
-CMakeFiles/cmTC_ecbc9.dir/CheckSymbolExists.c.o: 関数 `main' 内:
-CheckSymbolExists.c:(.text+0x1b): `pthread_create' に対する定義されていない参照です
+Run Build Command(s):/usr/bin/make cmTC_4a268/fast && /usr/bin/make -f CMakeFiles/cmTC_4a268.dir/build.make CMakeFiles/cmTC_4a268.dir/build
+make[1]: ディレクトリ '/media/windata/Users/Suisei/data/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_4a268.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_4a268.dir/src.c.o   -c /home/suisei/windata/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_4a268
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4a268.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_4a268.dir/src.c.o  -o cmTC_4a268 
+CMakeFiles/cmTC_4a268.dir/src.c.o: 関数 `main' 内:
+src.c:(.text+0x3e): `pthread_create' に対する定義されていない参照です
+src.c:(.text+0x4a): `pthread_detach' に対する定義されていない参照です
+src.c:(.text+0x5b): `pthread_join' に対する定義されていない参照です
+src.c:(.text+0x6f): `pthread_atfork' に対する定義されていない参照です
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_ecbc9.dir/build.make:97: recipe for target 'cmTC_ecbc9' failed
-make[1]: *** [cmTC_ecbc9] Error 1
-make[1]: ディレクトリ '/media/suisei/windata1/data/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp' から出ます
-Makefile:126: recipe for target 'cmTC_ecbc9/fast' failed
-make: *** [cmTC_ecbc9/fast] Error 2
+CMakeFiles/cmTC_4a268.dir/build.make:86: recipe for target 'cmTC_4a268' failed
+make[1]: *** [cmTC_4a268] Error 1
+make[1]: ディレクトリ '/media/windata/Users/Suisei/data/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp' から出ます
+Makefile:121: recipe for target 'cmTC_4a268/fast' failed
+make: *** [cmTC_4a268/fast] Error 2
 
-File /home/suisei/windata1/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
-/* */
+
+Source file was:
 #include <pthread.h>
 
-int main(int argc, char** argv)
+void* test_func(void* data)
 {
-  (void)argv;
-#ifndef pthread_create
-  return ((int*)(&pthread_create))[argc];
-#else
-  (void)argc;
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
   return 0;
-#endif
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/suisei/windata1/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp
+Change Dir: /home/suisei/windata/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_75eed/fast"
-/usr/bin/make -f CMakeFiles/cmTC_75eed.dir/build.make CMakeFiles/cmTC_75eed.dir/build
-make[1]: ディレクトリ '/media/suisei/windata1/data/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp' に入ります
-Building C object CMakeFiles/cmTC_75eed.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_75eed.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_75eed
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_75eed.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_75eed.dir/CheckFunctionExists.c.o  -o cmTC_75eed -lpthreads 
+Run Build Command(s):/usr/bin/make cmTC_bafde/fast && /usr/bin/make -f CMakeFiles/cmTC_bafde.dir/build.make CMakeFiles/cmTC_bafde.dir/build
+make[1]: ディレクトリ '/media/windata/Users/Suisei/data/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_bafde.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_bafde.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.15/Modules/CheckFunctionExists.c
+Linking C executable cmTC_bafde
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bafde.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_bafde.dir/CheckFunctionExists.c.o  -o cmTC_bafde -lpthreads 
 /usr/bin/ld: -lpthreads が見つかりません
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_75eed.dir/build.make:97: recipe for target 'cmTC_75eed' failed
-make[1]: *** [cmTC_75eed] Error 1
-make[1]: ディレクトリ '/media/suisei/windata1/data/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp' から出ます
-Makefile:126: recipe for target 'cmTC_75eed/fast' failed
-make: *** [cmTC_75eed/fast] Error 2
+CMakeFiles/cmTC_bafde.dir/build.make:86: recipe for target 'cmTC_bafde' failed
+make[1]: *** [cmTC_bafde] Error 1
+make[1]: ディレクトリ '/media/windata/Users/Suisei/data/projects/research/doctor/projects/mmg_simulator/build/CMakeFiles/CMakeTmp' から出ます
+Makefile:121: recipe for target 'cmTC_bafde/fast' failed
+make: *** [cmTC_bafde/fast] Error 2
+
 
 

@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/example_MatrixLogarithm.dir/MatrixLogarithm.cpp.o"
-  "example_MatrixLogarithm.pdb"
   "example_MatrixLogarithm"
+  "example_MatrixLogarithm.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

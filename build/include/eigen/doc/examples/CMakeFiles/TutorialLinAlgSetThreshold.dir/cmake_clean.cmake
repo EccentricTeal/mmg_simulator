@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/TutorialLinAlgSetThreshold.dir/TutorialLinAlgSetThreshold.cpp.o"
-  "TutorialLinAlgSetThreshold.pdb"
   "TutorialLinAlgSetThreshold"
+  "TutorialLinAlgSetThreshold.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

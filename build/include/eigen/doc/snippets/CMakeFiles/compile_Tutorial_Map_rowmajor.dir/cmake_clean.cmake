@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/compile_Tutorial_Map_rowmajor.dir/compile_Tutorial_Map_rowmajor.cpp.o"
-  "compile_Tutorial_Map_rowmajor.pdb"
   "compile_Tutorial_Map_rowmajor"
+  "compile_Tutorial_Map_rowmajor.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

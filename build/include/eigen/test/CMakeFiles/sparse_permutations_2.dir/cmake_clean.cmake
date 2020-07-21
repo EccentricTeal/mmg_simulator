@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/sparse_permutations_2.dir/sparse_permutations.cpp.o"
-  "sparse_permutations_2.pdb"
   "sparse_permutations_2"
+  "sparse_permutations_2.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

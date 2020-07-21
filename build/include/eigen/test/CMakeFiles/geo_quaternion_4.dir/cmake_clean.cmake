@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/geo_quaternion_4.dir/geo_quaternion.cpp.o"
-  "geo_quaternion_4.pdb"
   "geo_quaternion_4"
+  "geo_quaternion_4.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/corners_2.dir/corners.cpp.o"
-  "corners_2.pdb"
   "corners_2"
+  "corners_2.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

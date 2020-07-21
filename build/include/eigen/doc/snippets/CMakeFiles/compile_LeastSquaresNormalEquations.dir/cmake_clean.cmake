@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/compile_LeastSquaresNormalEquations.dir/compile_LeastSquaresNormalEquations.cpp.o"
-  "compile_LeastSquaresNormalEquations.pdb"
   "compile_LeastSquaresNormalEquations"
+  "compile_LeastSquaresNormalEquations.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

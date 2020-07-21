@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/autodiff_scalar_5.dir/autodiff_scalar.cpp.o"
-  "autodiff_scalar_5.pdb"
   "autodiff_scalar_5"
+  "autodiff_scalar_5.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

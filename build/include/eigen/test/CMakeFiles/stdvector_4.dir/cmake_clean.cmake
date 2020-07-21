@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/stdvector_4.dir/stdvector.cpp.o"
-  "stdvector_4.pdb"
   "stdvector_4"
+  "stdvector_4.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

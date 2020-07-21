@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/smallvectors.dir/smallvectors.cpp.o"
-  "smallvectors.pdb"
   "smallvectors"
+  "smallvectors.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

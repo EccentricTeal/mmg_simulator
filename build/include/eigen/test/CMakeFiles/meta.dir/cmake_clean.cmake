@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/meta.dir/meta.cpp.o"
-  "meta.pdb"
   "meta"
+  "meta.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

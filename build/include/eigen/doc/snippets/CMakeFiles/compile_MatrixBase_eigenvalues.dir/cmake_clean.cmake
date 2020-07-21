@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/compile_MatrixBase_eigenvalues.dir/compile_MatrixBase_eigenvalues.cpp.o"
-  "compile_MatrixBase_eigenvalues.pdb"
   "compile_MatrixBase_eigenvalues"
+  "compile_MatrixBase_eigenvalues.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

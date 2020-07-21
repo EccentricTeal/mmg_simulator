@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/unalignedcount.dir/unalignedcount.cpp.o"
-  "unalignedcount.pdb"
   "unalignedcount"
+  "unalignedcount.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

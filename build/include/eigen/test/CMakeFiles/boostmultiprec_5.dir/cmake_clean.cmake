@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/boostmultiprec_5.dir/boostmultiprec.cpp.o"
-  "boostmultiprec_5.pdb"
   "boostmultiprec_5"
+  "boostmultiprec_5.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

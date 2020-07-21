@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/fastmath.dir/fastmath.cpp.o"
-  "fastmath.pdb"
   "fastmath"
+  "fastmath.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

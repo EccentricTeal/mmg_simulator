@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/commainitializer.dir/commainitializer.cpp.o"
-  "commainitializer.pdb"
   "commainitializer"
+  "commainitializer.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

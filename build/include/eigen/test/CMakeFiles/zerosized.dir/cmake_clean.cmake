@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/zerosized.dir/zerosized.cpp.o"
-  "zerosized.pdb"
   "zerosized"
+  "zerosized.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

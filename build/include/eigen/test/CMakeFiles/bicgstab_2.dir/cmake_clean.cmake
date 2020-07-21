@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/bicgstab_2.dir/bicgstab.cpp.o"
-  "bicgstab_2.pdb"
   "bicgstab_2"
+  "bicgstab_2.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

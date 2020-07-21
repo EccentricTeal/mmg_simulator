@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/geo_hyperplane_1.dir/geo_hyperplane.cpp.o"
-  "geo_hyperplane_1.pdb"
   "geo_hyperplane_1"
+  "geo_hyperplane_1.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

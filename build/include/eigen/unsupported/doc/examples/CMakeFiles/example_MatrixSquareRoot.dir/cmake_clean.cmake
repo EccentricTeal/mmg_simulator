@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/example_MatrixSquareRoot.dir/MatrixSquareRoot.cpp.o"
-  "example_MatrixSquareRoot.pdb"
   "example_MatrixSquareRoot"
+  "example_MatrixSquareRoot.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

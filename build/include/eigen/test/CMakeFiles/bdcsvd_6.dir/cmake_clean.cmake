@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/bdcsvd_6.dir/bdcsvd.cpp.o"
-  "bdcsvd_6.pdb"
   "bdcsvd_6"
+  "bdcsvd_6.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

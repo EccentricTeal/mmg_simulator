@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/compile_Cwise_isNaN.dir/compile_Cwise_isNaN.cpp.o"
-  "compile_Cwise_isNaN.pdb"
   "compile_Cwise_isNaN"
+  "compile_Cwise_isNaN.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

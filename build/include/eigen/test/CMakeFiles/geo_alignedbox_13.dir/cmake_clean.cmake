@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/geo_alignedbox_13.dir/geo_alignedbox.cpp.o"
-  "geo_alignedbox_13.pdb"
   "geo_alignedbox_13"
+  "geo_alignedbox_13.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

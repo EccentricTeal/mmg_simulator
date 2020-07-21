@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/compile_Tutorial_AdvancedInitialization_Block.dir/compile_Tutorial_AdvancedInitialization_Block.cpp.o"
-  "compile_Tutorial_AdvancedInitialization_Block.pdb"
   "compile_Tutorial_AdvancedInitialization_Block"
+  "compile_Tutorial_AdvancedInitialization_Block.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

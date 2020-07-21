@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/compile_Cwise_not_equal.dir/compile_Cwise_not_equal.cpp.o"
-  "compile_Cwise_not_equal.pdb"
   "compile_Cwise_not_equal"
+  "compile_Cwise_not_equal.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

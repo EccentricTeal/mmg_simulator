@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/CustomizingEigen_Inheritance.dir/CustomizingEigen_Inheritance.cpp.o"
-  "CustomizingEigen_Inheritance.pdb"
   "CustomizingEigen_Inheritance"
+  "CustomizingEigen_Inheritance.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

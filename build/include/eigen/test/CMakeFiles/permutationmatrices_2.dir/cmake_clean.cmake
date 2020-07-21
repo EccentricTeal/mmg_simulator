@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/permutationmatrices_2.dir/permutationmatrices.cpp.o"
-  "permutationmatrices_2.pdb"
   "permutationmatrices_2"
+  "permutationmatrices_2.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

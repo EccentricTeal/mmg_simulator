@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Tutorial_ReductionsVisitorsBroadcasting_broadcast_simple.dir/Tutorial_ReductionsVisitorsBroadcasting_broadcast_simple.cpp.o"
-  "Tutorial_ReductionsVisitorsBroadcasting_broadcast_simple.pdb"
   "Tutorial_ReductionsVisitorsBroadcasting_broadcast_simple"
+  "Tutorial_ReductionsVisitorsBroadcasting_broadcast_simple.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/compile_LeastSquaresQR.dir/compile_LeastSquaresQR.cpp.o"
-  "compile_LeastSquaresQR.pdb"
   "compile_LeastSquaresQR"
+  "compile_LeastSquaresQR.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/compile_IOFormat.dir/compile_IOFormat.cpp.o"
-  "compile_IOFormat.pdb"
   "compile_IOFormat"
+  "compile_IOFormat.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

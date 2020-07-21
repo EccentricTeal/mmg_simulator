@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/compile_FullPivLU_kernel.dir/compile_FullPivLU_kernel.cpp.o"
-  "compile_FullPivLU_kernel.pdb"
   "compile_FullPivLU_kernel"
+  "compile_FullPivLU_kernel.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

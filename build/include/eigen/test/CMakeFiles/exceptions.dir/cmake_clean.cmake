@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/exceptions.dir/exceptions.cpp.o"
-  "exceptions.pdb"
   "exceptions"
+  "exceptions.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

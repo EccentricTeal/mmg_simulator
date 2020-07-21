@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/compile_Tutorial_solve_triangular_inplace.dir/compile_Tutorial_solve_triangular_inplace.cpp.o"
-  "compile_Tutorial_solve_triangular_inplace.pdb"
   "compile_Tutorial_solve_triangular_inplace"
+  "compile_Tutorial_solve_triangular_inplace.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

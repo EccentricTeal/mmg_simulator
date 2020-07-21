@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/mmg_parameter.dir/src/mmg_parameter.cpp.o"
-  "libmmg_parameter.pdb"
   "libmmg_parameter.a"
+  "libmmg_parameter.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

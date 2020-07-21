@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/upperbidiagonalization_1.dir/upperbidiagonalization.cpp.o"
-  "upperbidiagonalization_1.pdb"
   "upperbidiagonalization_1"
+  "upperbidiagonalization_1.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

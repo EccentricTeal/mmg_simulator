@@ -145,6 +145,7 @@ alignedvector3
 FFT
 EulerAngles
 sparse_extra
+openglsupport
 polynomialsolver
 polynomialutils
 splines

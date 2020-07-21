@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/NumericalDiff.dir/NumericalDiff.cpp.o"
-  "NumericalDiff.pdb"
   "NumericalDiff"
+  "NumericalDiff.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

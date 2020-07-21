@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/compile_MatrixBase_isDiagonal.dir/compile_MatrixBase_isDiagonal.cpp.o"
-  "compile_MatrixBase_isDiagonal.pdb"
   "compile_MatrixBase_isDiagonal"
+  "compile_MatrixBase_isDiagonal.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

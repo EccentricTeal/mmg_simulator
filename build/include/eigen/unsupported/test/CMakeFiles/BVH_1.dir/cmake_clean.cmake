@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/BVH_1.dir/BVH.cpp.o"
-  "BVH_1.pdb"
   "BVH_1"
+  "BVH_1.pdb"
+  "CMakeFiles/BVH_1.dir/BVH.cpp.o"
 )
 
 # Per-language clean rules from dependency scanning.

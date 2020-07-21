@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ctorleak.dir/ctorleak.cpp.o"
-  "ctorleak.pdb"
   "ctorleak"
+  "ctorleak.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

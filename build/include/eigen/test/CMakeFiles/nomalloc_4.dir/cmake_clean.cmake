@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/nomalloc_4.dir/nomalloc.cpp.o"
-  "nomalloc_4.pdb"
   "nomalloc_4"
+  "nomalloc_4.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/make_circulant2.dir/make_circulant2.cpp.o"
-  "make_circulant2.pdb"
   "make_circulant2"
+  "make_circulant2.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

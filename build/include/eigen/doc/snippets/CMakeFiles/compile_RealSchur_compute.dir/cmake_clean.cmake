@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/compile_RealSchur_compute.dir/compile_RealSchur_compute.cpp.o"
-  "compile_RealSchur_compute.pdb"
   "compile_RealSchur_compute"
+  "compile_RealSchur_compute.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

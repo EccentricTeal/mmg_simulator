@@ -4,40 +4,30 @@
 
 
 # Configuration directories and files
-SourceDirectory: /home/suisei/windata1/projects/research/doctor/projects/mmg_simulator/include/eigen
-BuildDirectory: /home/suisei/windata1/projects/research/doctor/projects/mmg_simulator/build/include/eigen
+SourceDirectory: /home/suisei/windata/projects/research/doctor/projects/mmg_simulator/include/eigen
+BuildDirectory: /home/suisei/windata/projects/research/doctor/projects/mmg_simulator/build/include/eigen
 
 # Where to place the cost data store
 CostDataFile: 
 
 # Site is something like machine.domain, i.e. pragmatic.crd
-Site: earth-linux
+Site: Neptune-linux
 
 # Build name is osname-revision-compiler, i.e. Linux-2.4.2-2smp-c++
-BuildName: linux-5.3.0-62-generic-_-7.5.0-sse2-64bit
+BuildName: linux-5.0.0-25-generic-_-7.4.0-sse2-64bit
 
 # Subprojects
 LabelsForSubprojects: 
 
 # Submission information
-IsCDash: TRUE
-CDashVersion: 
-QueryCDashVersion: 
-DropSite: manao.inria.fr
-DropLocation: /CDash/submit.php?project=Eigen+3.3
-DropSiteUser: 
-DropSitePassword: 
-DropSiteMode: 
-DropMethod: http
-TriggerSite: 
-ScpCommand: /usr/bin/scp
+SubmitURL: http://manao.inria.fr/CDash/submit.php?project=Eigen+3.3
 
 # Dashboard start time
 NightlyStartTime: 00:00:00 UTC
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "/usr/bin/cmake" "/home/suisei/windata1/projects/research/doctor/projects/mmg_simulator/include/eigen"
-MakeCommand: /usr/bin/cmake --build . --target buildtests --config "${CTEST_CONFIGURATION_TYPE}" -- -i 
+ConfigureCommand: "/usr/local/bin/cmake" "/home/suisei/windata/projects/research/doctor/projects/mmg_simulator/include/eigen"
+MakeCommand: /usr/local/bin/cmake --build . --target buildtests --config "${CTEST_CONFIGURATION_TYPE}" -- -i 
 DefaultCTestConfigurationType: Release
 
 # version control
@@ -73,7 +63,7 @@ UpdateType:
 
 # Compiler info
 Compiler: /usr/bin/c++
-CompilerVersion: 7.5.0
+CompilerVersion: 7.4.0
 
 # Dynamic analysis (MemCheck)
 PurifyCommand: 

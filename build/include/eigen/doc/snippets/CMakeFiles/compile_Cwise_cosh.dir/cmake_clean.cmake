@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/compile_Cwise_cosh.dir/compile_Cwise_cosh.cpp.o"
-  "compile_Cwise_cosh.pdb"
   "compile_Cwise_cosh"
+  "compile_Cwise_cosh.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

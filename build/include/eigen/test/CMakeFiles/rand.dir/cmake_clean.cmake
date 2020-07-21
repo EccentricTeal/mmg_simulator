@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/rand.dir/rand.cpp.o"
-  "rand.pdb"
   "rand"
+  "rand.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

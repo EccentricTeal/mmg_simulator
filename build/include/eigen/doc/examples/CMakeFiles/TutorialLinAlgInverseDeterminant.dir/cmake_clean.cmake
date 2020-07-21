@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/TutorialLinAlgInverseDeterminant.dir/TutorialLinAlgInverseDeterminant.cpp.o"
-  "TutorialLinAlgInverseDeterminant.pdb"
   "TutorialLinAlgInverseDeterminant"
+  "TutorialLinAlgInverseDeterminant.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

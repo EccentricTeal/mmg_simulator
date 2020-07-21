@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/QuickStart_example2_fixed.dir/QuickStart_example2_fixed.cpp.o"
-  "QuickStart_example2_fixed.pdb"
   "QuickStart_example2_fixed"
+  "QuickStart_example2_fixed.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

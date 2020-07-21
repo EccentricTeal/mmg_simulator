@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/example_MatrixFunction.dir/MatrixFunction.cpp.o"
-  "example_MatrixFunction.pdb"
   "example_MatrixFunction"
+  "example_MatrixFunction.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

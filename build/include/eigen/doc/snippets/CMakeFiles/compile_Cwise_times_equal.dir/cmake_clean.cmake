@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/compile_Cwise_times_equal.dir/compile_Cwise_times_equal.cpp.o"
-  "compile_Cwise_times_equal.pdb"
   "compile_Cwise_times_equal"
+  "compile_Cwise_times_equal.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

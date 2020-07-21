@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/compile_Cwise_array_power_array.dir/compile_Cwise_array_power_array.cpp.o"
-  "compile_Cwise_array_power_array.pdb"
   "compile_Cwise_array_power_array"
+  "compile_Cwise_array_power_array.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

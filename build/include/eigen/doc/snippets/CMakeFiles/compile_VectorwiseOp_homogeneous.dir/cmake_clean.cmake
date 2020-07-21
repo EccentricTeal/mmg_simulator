@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/compile_VectorwiseOp_homogeneous.dir/compile_VectorwiseOp_homogeneous.cpp.o"
-  "compile_VectorwiseOp_homogeneous.pdb"
   "compile_VectorwiseOp_homogeneous"
+  "compile_VectorwiseOp_homogeneous.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

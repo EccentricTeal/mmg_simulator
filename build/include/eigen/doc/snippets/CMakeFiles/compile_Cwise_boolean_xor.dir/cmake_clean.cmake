@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/compile_Cwise_boolean_xor.dir/compile_Cwise_boolean_xor.cpp.o"
-  "compile_Cwise_boolean_xor.pdb"
   "compile_Cwise_boolean_xor"
+  "compile_Cwise_boolean_xor.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

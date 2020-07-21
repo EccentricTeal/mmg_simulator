@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/polynomialsolver_2.dir/polynomialsolver.cpp.o"
-  "polynomialsolver_2.pdb"
   "polynomialsolver_2"
+  "polynomialsolver_2.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

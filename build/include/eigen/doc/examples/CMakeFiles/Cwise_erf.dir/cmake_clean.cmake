@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Cwise_erf.dir/Cwise_erf.cpp.o"
-  "Cwise_erf.pdb"
   "Cwise_erf"
+  "Cwise_erf.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

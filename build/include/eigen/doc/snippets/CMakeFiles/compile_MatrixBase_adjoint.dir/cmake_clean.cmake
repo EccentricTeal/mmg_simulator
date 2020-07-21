@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/compile_MatrixBase_adjoint.dir/compile_MatrixBase_adjoint.cpp.o"
-  "compile_MatrixBase_adjoint.pdb"
   "compile_MatrixBase_adjoint"
+  "compile_MatrixBase_adjoint.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

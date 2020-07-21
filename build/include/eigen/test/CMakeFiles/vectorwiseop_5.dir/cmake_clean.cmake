@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/vectorwiseop_5.dir/vectorwiseop.cpp.o"
-  "vectorwiseop_5.pdb"
   "vectorwiseop_5"
+  "vectorwiseop_5.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

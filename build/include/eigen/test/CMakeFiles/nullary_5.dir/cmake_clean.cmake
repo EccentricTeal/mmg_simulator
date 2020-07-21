@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/nullary_5.dir/nullary.cpp.o"
-  "nullary_5.pdb"
   "nullary_5"
+  "nullary_5.pdb"
 )
 
 # Per-language clean rules from dependency scanning.
