@@ -2,7 +2,7 @@
 	"sources" : 
 	[
 		{
-			"file" : "/home/suisei/windata/projects/research/doctor/projects/mmg_simulator/include/eigen/test/vectorization_logic.cpp"
+			"file" : "/home/suisei/projects/research/mmg_simulator/mmg_simulator/include/eigen/test/vectorization_logic.cpp"
 		}
 	],
 	"target" : 

@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/adjoint_4.dir/adjoint.cpp.o"
-  "adjoint_4"
   "adjoint_4.pdb"
+  "adjoint_4"
 )
 
 # Per-language clean rules from dependency scanning.

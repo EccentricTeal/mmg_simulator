@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/TutorialLinAlgRankRevealing.dir/TutorialLinAlgRankRevealing.cpp.o"
-  "TutorialLinAlgRankRevealing"
   "TutorialLinAlgRankRevealing.pdb"
+  "TutorialLinAlgRankRevealing"
 )
 
 # Per-language clean rules from dependency scanning.

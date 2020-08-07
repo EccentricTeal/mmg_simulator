@@ -1,4 +1,4 @@
-# Install script for directory: /home/suisei/windata/projects/research/doctor/projects/mmg_simulator/include/eigen/unsupported/Eigen
+# Install script for directory: /home/suisei/projects/research/mmg_simulator/mmg_simulator/include/eigen/unsupported/Eigen
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,37 +39,37 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xDevelx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/eigen3/unsupported/Eigen" TYPE FILE FILES
-    "/home/suisei/windata/projects/research/doctor/projects/mmg_simulator/include/eigen/unsupported/Eigen/AdolcForward"
-    "/home/suisei/windata/projects/research/doctor/projects/mmg_simulator/include/eigen/unsupported/Eigen/AlignedVector3"
-    "/home/suisei/windata/projects/research/doctor/projects/mmg_simulator/include/eigen/unsupported/Eigen/ArpackSupport"
-    "/home/suisei/windata/projects/research/doctor/projects/mmg_simulator/include/eigen/unsupported/Eigen/AutoDiff"
-    "/home/suisei/windata/projects/research/doctor/projects/mmg_simulator/include/eigen/unsupported/Eigen/BVH"
-    "/home/suisei/windata/projects/research/doctor/projects/mmg_simulator/include/eigen/unsupported/Eigen/EulerAngles"
-    "/home/suisei/windata/projects/research/doctor/projects/mmg_simulator/include/eigen/unsupported/Eigen/FFT"
-    "/home/suisei/windata/projects/research/doctor/projects/mmg_simulator/include/eigen/unsupported/Eigen/IterativeSolvers"
-    "/home/suisei/windata/projects/research/doctor/projects/mmg_simulator/include/eigen/unsupported/Eigen/KroneckerProduct"
-    "/home/suisei/windata/projects/research/doctor/projects/mmg_simulator/include/eigen/unsupported/Eigen/LevenbergMarquardt"
-    "/home/suisei/windata/projects/research/doctor/projects/mmg_simulator/include/eigen/unsupported/Eigen/MatrixFunctions"
-    "/home/suisei/windata/projects/research/doctor/projects/mmg_simulator/include/eigen/unsupported/Eigen/MoreVectorization"
-    "/home/suisei/windata/projects/research/doctor/projects/mmg_simulator/include/eigen/unsupported/Eigen/MPRealSupport"
-    "/home/suisei/windata/projects/research/doctor/projects/mmg_simulator/include/eigen/unsupported/Eigen/NonLinearOptimization"
-    "/home/suisei/windata/projects/research/doctor/projects/mmg_simulator/include/eigen/unsupported/Eigen/NumericalDiff"
-    "/home/suisei/windata/projects/research/doctor/projects/mmg_simulator/include/eigen/unsupported/Eigen/OpenGLSupport"
-    "/home/suisei/windata/projects/research/doctor/projects/mmg_simulator/include/eigen/unsupported/Eigen/Polynomials"
-    "/home/suisei/windata/projects/research/doctor/projects/mmg_simulator/include/eigen/unsupported/Eigen/Skyline"
-    "/home/suisei/windata/projects/research/doctor/projects/mmg_simulator/include/eigen/unsupported/Eigen/SparseExtra"
-    "/home/suisei/windata/projects/research/doctor/projects/mmg_simulator/include/eigen/unsupported/Eigen/SpecialFunctions"
-    "/home/suisei/windata/projects/research/doctor/projects/mmg_simulator/include/eigen/unsupported/Eigen/Splines"
+    "/home/suisei/projects/research/mmg_simulator/mmg_simulator/include/eigen/unsupported/Eigen/AdolcForward"
+    "/home/suisei/projects/research/mmg_simulator/mmg_simulator/include/eigen/unsupported/Eigen/AlignedVector3"
+    "/home/suisei/projects/research/mmg_simulator/mmg_simulator/include/eigen/unsupported/Eigen/ArpackSupport"
+    "/home/suisei/projects/research/mmg_simulator/mmg_simulator/include/eigen/unsupported/Eigen/AutoDiff"
+    "/home/suisei/projects/research/mmg_simulator/mmg_simulator/include/eigen/unsupported/Eigen/BVH"
+    "/home/suisei/projects/research/mmg_simulator/mmg_simulator/include/eigen/unsupported/Eigen/EulerAngles"
+    "/home/suisei/projects/research/mmg_simulator/mmg_simulator/include/eigen/unsupported/Eigen/FFT"
+    "/home/suisei/projects/research/mmg_simulator/mmg_simulator/include/eigen/unsupported/Eigen/IterativeSolvers"
+    "/home/suisei/projects/research/mmg_simulator/mmg_simulator/include/eigen/unsupported/Eigen/KroneckerProduct"
+    "/home/suisei/projects/research/mmg_simulator/mmg_simulator/include/eigen/unsupported/Eigen/LevenbergMarquardt"
+    "/home/suisei/projects/research/mmg_simulator/mmg_simulator/include/eigen/unsupported/Eigen/MatrixFunctions"
+    "/home/suisei/projects/research/mmg_simulator/mmg_simulator/include/eigen/unsupported/Eigen/MoreVectorization"
+    "/home/suisei/projects/research/mmg_simulator/mmg_simulator/include/eigen/unsupported/Eigen/MPRealSupport"
+    "/home/suisei/projects/research/mmg_simulator/mmg_simulator/include/eigen/unsupported/Eigen/NonLinearOptimization"
+    "/home/suisei/projects/research/mmg_simulator/mmg_simulator/include/eigen/unsupported/Eigen/NumericalDiff"
+    "/home/suisei/projects/research/mmg_simulator/mmg_simulator/include/eigen/unsupported/Eigen/OpenGLSupport"
+    "/home/suisei/projects/research/mmg_simulator/mmg_simulator/include/eigen/unsupported/Eigen/Polynomials"
+    "/home/suisei/projects/research/mmg_simulator/mmg_simulator/include/eigen/unsupported/Eigen/Skyline"
+    "/home/suisei/projects/research/mmg_simulator/mmg_simulator/include/eigen/unsupported/Eigen/SparseExtra"
+    "/home/suisei/projects/research/mmg_simulator/mmg_simulator/include/eigen/unsupported/Eigen/SpecialFunctions"
+    "/home/suisei/projects/research/mmg_simulator/mmg_simulator/include/eigen/unsupported/Eigen/Splines"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xDevelx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/eigen3/unsupported/Eigen" TYPE DIRECTORY FILES "/home/suisei/windata/projects/research/doctor/projects/mmg_simulator/include/eigen/unsupported/Eigen/src" FILES_MATCHING REGEX "/[^/]*\\.h$")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/eigen3/unsupported/Eigen" TYPE DIRECTORY FILES "/home/suisei/projects/research/mmg_simulator/mmg_simulator/include/eigen/unsupported/Eigen/src" FILES_MATCHING REGEX "/[^/]*\\.h$")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/suisei/windata/projects/research/doctor/projects/mmg_simulator/build/include/eigen/unsupported/Eigen/CXX11/cmake_install.cmake")
+  include("/home/suisei/projects/research/mmg_simulator/mmg_simulator/build/include/eigen/unsupported/Eigen/CXX11/cmake_install.cmake")
 
 endif()
 

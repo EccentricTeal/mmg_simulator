@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/schur_complex_4.dir/schur_complex.cpp.o"
-  "schur_complex_4"
   "schur_complex_4.pdb"
+  "schur_complex_4"
 )
 
 # Per-language clean rules from dependency scanning.

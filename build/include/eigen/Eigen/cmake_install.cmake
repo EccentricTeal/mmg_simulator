@@ -1,4 +1,4 @@
-# Install script for directory: /home/suisei/windata/projects/research/doctor/projects/mmg_simulator/include/eigen/Eigen
+# Install script for directory: /home/suisei/projects/research/mmg_simulator/mmg_simulator/include/eigen/Eigen
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,39 +39,39 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xDevelx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/eigen3/Eigen" TYPE FILE FILES
-    "/home/suisei/windata/projects/research/doctor/projects/mmg_simulator/include/eigen/Eigen/Cholesky"
-    "/home/suisei/windata/projects/research/doctor/projects/mmg_simulator/include/eigen/Eigen/CholmodSupport"
-    "/home/suisei/windata/projects/research/doctor/projects/mmg_simulator/include/eigen/Eigen/Core"
-    "/home/suisei/windata/projects/research/doctor/projects/mmg_simulator/include/eigen/Eigen/Dense"
-    "/home/suisei/windata/projects/research/doctor/projects/mmg_simulator/include/eigen/Eigen/Eigen"
-    "/home/suisei/windata/projects/research/doctor/projects/mmg_simulator/include/eigen/Eigen/Eigenvalues"
-    "/home/suisei/windata/projects/research/doctor/projects/mmg_simulator/include/eigen/Eigen/Geometry"
-    "/home/suisei/windata/projects/research/doctor/projects/mmg_simulator/include/eigen/Eigen/Householder"
-    "/home/suisei/windata/projects/research/doctor/projects/mmg_simulator/include/eigen/Eigen/IterativeLinearSolvers"
-    "/home/suisei/windata/projects/research/doctor/projects/mmg_simulator/include/eigen/Eigen/Jacobi"
-    "/home/suisei/windata/projects/research/doctor/projects/mmg_simulator/include/eigen/Eigen/LU"
-    "/home/suisei/windata/projects/research/doctor/projects/mmg_simulator/include/eigen/Eigen/MetisSupport"
-    "/home/suisei/windata/projects/research/doctor/projects/mmg_simulator/include/eigen/Eigen/OrderingMethods"
-    "/home/suisei/windata/projects/research/doctor/projects/mmg_simulator/include/eigen/Eigen/PaStiXSupport"
-    "/home/suisei/windata/projects/research/doctor/projects/mmg_simulator/include/eigen/Eigen/PardisoSupport"
-    "/home/suisei/windata/projects/research/doctor/projects/mmg_simulator/include/eigen/Eigen/QR"
-    "/home/suisei/windata/projects/research/doctor/projects/mmg_simulator/include/eigen/Eigen/QtAlignedMalloc"
-    "/home/suisei/windata/projects/research/doctor/projects/mmg_simulator/include/eigen/Eigen/SPQRSupport"
-    "/home/suisei/windata/projects/research/doctor/projects/mmg_simulator/include/eigen/Eigen/SVD"
-    "/home/suisei/windata/projects/research/doctor/projects/mmg_simulator/include/eigen/Eigen/Sparse"
-    "/home/suisei/windata/projects/research/doctor/projects/mmg_simulator/include/eigen/Eigen/SparseCholesky"
-    "/home/suisei/windata/projects/research/doctor/projects/mmg_simulator/include/eigen/Eigen/SparseCore"
-    "/home/suisei/windata/projects/research/doctor/projects/mmg_simulator/include/eigen/Eigen/SparseLU"
-    "/home/suisei/windata/projects/research/doctor/projects/mmg_simulator/include/eigen/Eigen/SparseQR"
-    "/home/suisei/windata/projects/research/doctor/projects/mmg_simulator/include/eigen/Eigen/StdDeque"
-    "/home/suisei/windata/projects/research/doctor/projects/mmg_simulator/include/eigen/Eigen/StdList"
-    "/home/suisei/windata/projects/research/doctor/projects/mmg_simulator/include/eigen/Eigen/StdVector"
-    "/home/suisei/windata/projects/research/doctor/projects/mmg_simulator/include/eigen/Eigen/SuperLUSupport"
-    "/home/suisei/windata/projects/research/doctor/projects/mmg_simulator/include/eigen/Eigen/UmfPackSupport"
+    "/home/suisei/projects/research/mmg_simulator/mmg_simulator/include/eigen/Eigen/Cholesky"
+    "/home/suisei/projects/research/mmg_simulator/mmg_simulator/include/eigen/Eigen/CholmodSupport"
+    "/home/suisei/projects/research/mmg_simulator/mmg_simulator/include/eigen/Eigen/Core"
+    "/home/suisei/projects/research/mmg_simulator/mmg_simulator/include/eigen/Eigen/Dense"
+    "/home/suisei/projects/research/mmg_simulator/mmg_simulator/include/eigen/Eigen/Eigen"
+    "/home/suisei/projects/research/mmg_simulator/mmg_simulator/include/eigen/Eigen/Eigenvalues"
+    "/home/suisei/projects/research/mmg_simulator/mmg_simulator/include/eigen/Eigen/Geometry"
+    "/home/suisei/projects/research/mmg_simulator/mmg_simulator/include/eigen/Eigen/Householder"
+    "/home/suisei/projects/research/mmg_simulator/mmg_simulator/include/eigen/Eigen/IterativeLinearSolvers"
+    "/home/suisei/projects/research/mmg_simulator/mmg_simulator/include/eigen/Eigen/Jacobi"
+    "/home/suisei/projects/research/mmg_simulator/mmg_simulator/include/eigen/Eigen/LU"
+    "/home/suisei/projects/research/mmg_simulator/mmg_simulator/include/eigen/Eigen/MetisSupport"
+    "/home/suisei/projects/research/mmg_simulator/mmg_simulator/include/eigen/Eigen/OrderingMethods"
+    "/home/suisei/projects/research/mmg_simulator/mmg_simulator/include/eigen/Eigen/PaStiXSupport"
+    "/home/suisei/projects/research/mmg_simulator/mmg_simulator/include/eigen/Eigen/PardisoSupport"
+    "/home/suisei/projects/research/mmg_simulator/mmg_simulator/include/eigen/Eigen/QR"
+    "/home/suisei/projects/research/mmg_simulator/mmg_simulator/include/eigen/Eigen/QtAlignedMalloc"
+    "/home/suisei/projects/research/mmg_simulator/mmg_simulator/include/eigen/Eigen/SPQRSupport"
+    "/home/suisei/projects/research/mmg_simulator/mmg_simulator/include/eigen/Eigen/SVD"
+    "/home/suisei/projects/research/mmg_simulator/mmg_simulator/include/eigen/Eigen/Sparse"
+    "/home/suisei/projects/research/mmg_simulator/mmg_simulator/include/eigen/Eigen/SparseCholesky"
+    "/home/suisei/projects/research/mmg_simulator/mmg_simulator/include/eigen/Eigen/SparseCore"
+    "/home/suisei/projects/research/mmg_simulator/mmg_simulator/include/eigen/Eigen/SparseLU"
+    "/home/suisei/projects/research/mmg_simulator/mmg_simulator/include/eigen/Eigen/SparseQR"
+    "/home/suisei/projects/research/mmg_simulator/mmg_simulator/include/eigen/Eigen/StdDeque"
+    "/home/suisei/projects/research/mmg_simulator/mmg_simulator/include/eigen/Eigen/StdList"
+    "/home/suisei/projects/research/mmg_simulator/mmg_simulator/include/eigen/Eigen/StdVector"
+    "/home/suisei/projects/research/mmg_simulator/mmg_simulator/include/eigen/Eigen/SuperLUSupport"
+    "/home/suisei/projects/research/mmg_simulator/mmg_simulator/include/eigen/Eigen/UmfPackSupport"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xDevelx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/eigen3/Eigen" TYPE DIRECTORY FILES "/home/suisei/windata/projects/research/doctor/projects/mmg_simulator/include/eigen/Eigen/src" FILES_MATCHING REGEX "/[^/]*\\.h$")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/eigen3/Eigen" TYPE DIRECTORY FILES "/home/suisei/projects/research/mmg_simulator/mmg_simulator/include/eigen/Eigen/src" FILES_MATCHING REGEX "/[^/]*\\.h$")
 endif()
 

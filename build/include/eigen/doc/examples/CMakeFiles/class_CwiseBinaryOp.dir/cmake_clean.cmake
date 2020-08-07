@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/class_CwiseBinaryOp.dir/class_CwiseBinaryOp.cpp.o"
-  "class_CwiseBinaryOp"
   "class_CwiseBinaryOp.pdb"
+  "class_CwiseBinaryOp"
 )
 
 # Per-language clean rules from dependency scanning.

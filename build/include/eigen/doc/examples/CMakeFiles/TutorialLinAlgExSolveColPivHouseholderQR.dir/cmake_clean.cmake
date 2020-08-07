@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/TutorialLinAlgExSolveColPivHouseholderQR.dir/TutorialLinAlgExSolveColPivHouseholderQR.cpp.o"
-  "TutorialLinAlgExSolveColPivHouseholderQR"
   "TutorialLinAlgExSolveColPivHouseholderQR.pdb"
+  "TutorialLinAlgExSolveColPivHouseholderQR"
 )
 
 # Per-language clean rules from dependency scanning.

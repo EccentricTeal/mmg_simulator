@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/matrixfree_cg.dir/matrixfree_cg.cpp.o"
-  "matrixfree_cg"
   "matrixfree_cg.pdb"
+  "matrixfree_cg"
 )
 
 # Per-language clean rules from dependency scanning.

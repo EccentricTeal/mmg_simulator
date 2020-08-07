@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/sizeoverflow.dir/sizeoverflow.cpp.o"
-  "sizeoverflow"
   "sizeoverflow.pdb"
+  "sizeoverflow"
 )
 
 # Per-language clean rules from dependency scanning.

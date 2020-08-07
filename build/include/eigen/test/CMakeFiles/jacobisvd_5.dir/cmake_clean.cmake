@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/jacobisvd_5.dir/jacobisvd.cpp.o"
-  "jacobisvd_5"
   "jacobisvd_5.pdb"
+  "jacobisvd_5"
 )
 
 # Per-language clean rules from dependency scanning.

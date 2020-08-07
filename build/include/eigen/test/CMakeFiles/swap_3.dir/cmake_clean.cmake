@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/swap_3.dir/swap.cpp.o"
-  "swap_3"
   "swap_3.pdb"
+  "swap_3"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/dynalloc.dir/dynalloc.cpp.o"
-  "dynalloc"
   "dynalloc.pdb"
+  "dynalloc"
 )
 
 # Per-language clean rules from dependency scanning.

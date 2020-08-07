@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/sparse_basic_2.dir/sparse_basic.cpp.o"
-  "sparse_basic_2"
   "sparse_basic_2.pdb"
+  "sparse_basic_2"
 )
 
 # Per-language clean rules from dependency scanning.

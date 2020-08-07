@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/resize.dir/resize.cpp.o"
-  "resize"
   "resize.pdb"
+  "resize"
 )
 
 # Per-language clean rules from dependency scanning.

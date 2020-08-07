@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/compile_MatrixBase_template_int_leftCols.dir/compile_MatrixBase_template_int_leftCols.cpp.o"
-  "compile_MatrixBase_template_int_leftCols"
   "compile_MatrixBase_template_int_leftCols.pdb"
+  "compile_MatrixBase_template_int_leftCols"
 )
 
 # Per-language clean rules from dependency scanning.

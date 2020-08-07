@@ -1,4 +1,4 @@
-# Install script for directory: /home/suisei/windata/projects/research/doctor/projects/mmg_simulator/include/eigen/unsupported/doc
+# Install script for directory: /home/suisei/projects/research/mmg_simulator/mmg_simulator/include/eigen/unsupported/doc
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,6 +39,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
+  include("/home/suisei/projects/research/mmg_simulator/mmg_simulator/build/include/eigen/unsupported/doc/examples/cmake_install.cmake")
+  include("/home/suisei/projects/research/mmg_simulator/mmg_simulator/build/include/eigen/unsupported/doc/snippets/cmake_install.cmake")
 
 endif()
 

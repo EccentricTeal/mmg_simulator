@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/compile_Tutorial_ReshapeMat2Mat.dir/compile_Tutorial_ReshapeMat2Mat.cpp.o"
-  "compile_Tutorial_ReshapeMat2Mat"
   "compile_Tutorial_ReshapeMat2Mat.pdb"
+  "compile_Tutorial_ReshapeMat2Mat"
 )
 
 # Per-language clean rules from dependency scanning.

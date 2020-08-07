@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/TutorialLinAlgExComputeSolveError.dir/TutorialLinAlgExComputeSolveError.cpp.o"
-  "TutorialLinAlgExComputeSolveError"
   "TutorialLinAlgExComputeSolveError.pdb"
+  "TutorialLinAlgExComputeSolveError"
 )
 
 # Per-language clean rules from dependency scanning.

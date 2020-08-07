@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/compile_MatrixBase_applyOnTheLeft.dir/compile_MatrixBase_applyOnTheLeft.cpp.o"
-  "compile_MatrixBase_applyOnTheLeft"
   "compile_MatrixBase_applyOnTheLeft.pdb"
+  "compile_MatrixBase_applyOnTheLeft"
 )
 
 # Per-language clean rules from dependency scanning.

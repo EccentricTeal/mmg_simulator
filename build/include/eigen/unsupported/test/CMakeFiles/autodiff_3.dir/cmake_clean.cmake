@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/autodiff_3.dir/autodiff.cpp.o"
-  "autodiff_3"
   "autodiff_3.pdb"
+  "autodiff_3"
 )
 
 # Per-language clean rules from dependency scanning.

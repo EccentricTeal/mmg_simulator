@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/triangular_8.dir/triangular.cpp.o"
-  "triangular_8"
   "triangular_8.pdb"
+  "triangular_8"
 )
 
 # Per-language clean rules from dependency scanning.

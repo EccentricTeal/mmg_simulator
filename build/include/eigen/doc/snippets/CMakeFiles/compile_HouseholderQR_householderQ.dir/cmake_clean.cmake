@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/compile_HouseholderQR_householderQ.dir/compile_HouseholderQR_householderQ.cpp.o"
-  "compile_HouseholderQR_householderQ"
   "compile_HouseholderQR_householderQ.pdb"
+  "compile_HouseholderQR_householderQ"
 )
 
 # Per-language clean rules from dependency scanning.

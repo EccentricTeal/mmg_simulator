@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/bandmatrix.dir/bandmatrix.cpp.o"
-  "bandmatrix"
   "bandmatrix.pdb"
+  "bandmatrix"
 )
 
 # Per-language clean rules from dependency scanning.

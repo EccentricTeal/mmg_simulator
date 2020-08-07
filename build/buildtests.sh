@@ -130,8 +130,6 @@ inplace_decomposition
 half_float
 array_of_string
 fastmath
-superlu_support
-boostmultiprec
 NonLinearOptimization
 NumericalDiff
 autodiff_scalar
@@ -145,7 +143,6 @@ alignedvector3
 FFT
 EulerAngles
 sparse_extra
-openglsupport
 polynomialsolver
 polynomialutils
 splines

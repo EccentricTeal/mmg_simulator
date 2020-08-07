@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/compile_MatrixBase_template_int_segment.dir/compile_MatrixBase_template_int_segment.cpp.o"
-  "compile_MatrixBase_template_int_segment"
   "compile_MatrixBase_template_int_segment.pdb"
+  "compile_MatrixBase_template_int_segment"
 )
 
 # Per-language clean rules from dependency scanning.

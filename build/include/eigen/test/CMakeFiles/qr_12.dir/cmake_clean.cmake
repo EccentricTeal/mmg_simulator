@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/qr_12.dir/qr.cpp.o"
-  "qr_12"
   "qr_12.pdb"
+  "qr_12"
 )
 
 # Per-language clean rules from dependency scanning.

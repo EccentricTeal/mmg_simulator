@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/compile_Cwise_floor.dir/compile_Cwise_floor.cpp.o"
-  "compile_Cwise_floor"
   "compile_Cwise_floor.pdb"
+  "compile_Cwise_floor"
 )
 
 # Per-language clean rules from dependency scanning.

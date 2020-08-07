@@ -1,4 +1,4 @@
-# Install script for directory: /home/suisei/windata/projects/research/doctor/projects/mmg_simulator
+# Install script for directory: /home/suisei/projects/research/mmg_simulator/mmg_simulator
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/suisei/windata/projects/research/doctor/projects/mmg_simulator/build/include/eigen/cmake_install.cmake")
+  include("/home/suisei/projects/research/mmg_simulator/mmg_simulator/build/include/eigen/cmake_install.cmake")
 
 endif()
 
@@ -51,5 +51,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/suisei/windata/projects/research/doctor/projects/mmg_simulator/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/suisei/projects/research/mmg_simulator/mmg_simulator/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

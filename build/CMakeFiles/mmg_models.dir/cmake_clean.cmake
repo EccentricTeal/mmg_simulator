@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/mmg_models.dir/src/mmg_models.cpp.o"
-  "libmmg_models.a"
   "libmmg_models.pdb"
+  "libmmg_models.a"
 )
 
 # Per-language clean rules from dependency scanning.

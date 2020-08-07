@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/class_CwiseUnaryOp_ptrfun.dir/class_CwiseUnaryOp_ptrfun.cpp.o"
-  "class_CwiseUnaryOp_ptrfun"
   "class_CwiseUnaryOp_ptrfun.pdb"
+  "class_CwiseUnaryOp_ptrfun"
 )
 
 # Per-language clean rules from dependency scanning.

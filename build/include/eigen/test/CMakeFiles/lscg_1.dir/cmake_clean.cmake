@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/lscg_1.dir/lscg.cpp.o"
-  "lscg_1"
   "lscg_1.pdb"
+  "lscg_1"
 )
 
 # Per-language clean rules from dependency scanning.

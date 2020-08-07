@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/stdlist_4.dir/stdlist.cpp.o"
-  "stdlist_4"
   "stdlist_4.pdb"
+  "stdlist_4"
 )
 
 # Per-language clean rules from dependency scanning.

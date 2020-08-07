@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/array_replicate_3.dir/array_replicate.cpp.o"
-  "array_replicate_3"
   "array_replicate_3.pdb"
+  "array_replicate_3"
 )
 
 # Per-language clean rules from dependency scanning.

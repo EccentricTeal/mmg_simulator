@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/stddeque_1.dir/stddeque.cpp.o"
-  "stddeque_1"
   "stddeque_1.pdb"
+  "stddeque_1"
 )
 
 # Per-language clean rules from dependency scanning.

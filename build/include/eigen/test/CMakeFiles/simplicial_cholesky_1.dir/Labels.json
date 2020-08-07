@@ -2,7 +2,7 @@
 	"sources" : 
 	[
 		{
-			"file" : "/home/suisei/windata/projects/research/doctor/projects/mmg_simulator/include/eigen/test/simplicial_cholesky.cpp"
+			"file" : "/home/suisei/projects/research/mmg_simulator/mmg_simulator/include/eigen/test/simplicial_cholesky.cpp"
 		}
 	],
 	"target" : 

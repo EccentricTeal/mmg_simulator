@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Tutorial_ReductionsVisitorsBroadcasting_reductions_operatornorm.dir/Tutorial_ReductionsVisitorsBroadcasting_reductions_operatornorm.cpp.o"
-  "Tutorial_ReductionsVisitorsBroadcasting_reductions_operatornorm"
   "Tutorial_ReductionsVisitorsBroadcasting_reductions_operatornorm.pdb"
+  "Tutorial_ReductionsVisitorsBroadcasting_reductions_operatornorm"
 )
 
 # Per-language clean rules from dependency scanning.

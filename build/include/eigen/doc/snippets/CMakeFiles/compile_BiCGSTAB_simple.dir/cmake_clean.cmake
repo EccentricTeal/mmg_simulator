@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/compile_BiCGSTAB_simple.dir/compile_BiCGSTAB_simple.cpp.o"
-  "compile_BiCGSTAB_simple"
   "compile_BiCGSTAB_simple.pdb"
+  "compile_BiCGSTAB_simple"
 )
 
 # Per-language clean rules from dependency scanning.

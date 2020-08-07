@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/example_MatrixExponential.dir/MatrixExponential.cpp.o"
-  "example_MatrixExponential"
   "example_MatrixExponential.pdb"
+  "example_MatrixExponential"
 )
 
 # Per-language clean rules from dependency scanning.

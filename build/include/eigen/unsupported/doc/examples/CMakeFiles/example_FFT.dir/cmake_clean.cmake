@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/example_FFT.dir/FFT.cpp.o"
-  "example_FFT"
   "example_FFT.pdb"
+  "example_FFT"
 )
 
 # Per-language clean rules from dependency scanning.

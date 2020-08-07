@@ -1,9 +1,9 @@
 
-set(CTEST_SOURCE_DIRECTORY  "/home/suisei/windata/projects/research/doctor/projects/mmg_simulator")
-set(CTEST_BINARY_DIRECTORY  "/home/suisei/windata/projects/research/doctor/projects/mmg_simulator/build")
+set(CTEST_SOURCE_DIRECTORY  "/home/suisei/projects/research/mmg_simulator/mmg_simulator")
+set(CTEST_BINARY_DIRECTORY  "/home/suisei/projects/research/mmg_simulator/mmg_simulator/build")
 set(CTEST_CMAKE_GENERATOR   "Unix Makefiles")
-set(CTEST_BUILD_NAME        "linux-5.0.0-25-generic-_-7.4.0-sse2-64bit")
-set(CTEST_SITE              "Neptune-linux")
+set(CTEST_BUILD_NAME        "linux-5.4.0-42-generic-_-7.5.0-sse2-64bit")
+set(CTEST_SITE              "naoe5-wada-linux")
 
 set(MODEL Experimental)
 if(${CTEST_SCRIPT_ARG} MATCHES Nightly)

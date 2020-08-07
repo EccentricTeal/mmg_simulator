@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/spbenchsolver.dir/spbenchsolver.cpp.o"
-  "spbenchsolver"
   "spbenchsolver.pdb"
+  "spbenchsolver"
 )
 
 # Per-language clean rules from dependency scanning.

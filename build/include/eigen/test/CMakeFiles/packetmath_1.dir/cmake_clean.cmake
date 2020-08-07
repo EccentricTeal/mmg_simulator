@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/packetmath_1.dir/packetmath.cpp.o"
-  "packetmath_1"
   "packetmath_1.pdb"
+  "packetmath_1"
 )
 
 # Per-language clean rules from dependency scanning.

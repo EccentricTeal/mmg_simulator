@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/TutorialLinAlgExSolveLDLT.dir/TutorialLinAlgExSolveLDLT.cpp.o"
-  "TutorialLinAlgExSolveLDLT"
   "TutorialLinAlgExSolveLDLT.pdb"
+  "TutorialLinAlgExSolveLDLT"
 )
 
 # Per-language clean rules from dependency scanning.

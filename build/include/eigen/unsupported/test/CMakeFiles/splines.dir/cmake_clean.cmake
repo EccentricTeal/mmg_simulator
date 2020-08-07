@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/splines.dir/splines.cpp.o"
-  "splines"
   "splines.pdb"
+  "splines"
 )
 
 # Per-language clean rules from dependency scanning.

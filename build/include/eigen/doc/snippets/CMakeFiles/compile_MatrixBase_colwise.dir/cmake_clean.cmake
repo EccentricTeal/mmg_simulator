@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/compile_MatrixBase_colwise.dir/compile_MatrixBase_colwise.cpp.o"
-  "compile_MatrixBase_colwise"
   "compile_MatrixBase_colwise.pdb"
+  "compile_MatrixBase_colwise"
 )
 
 # Per-language clean rules from dependency scanning.
